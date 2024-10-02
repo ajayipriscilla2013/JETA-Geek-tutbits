@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /*--------------------------------------------------------------------------
-Template name: Eduaid
-Template URI: https://www.foxcoders.com/demo/eduaid/
+Template name: Tutbits
+Template URI: https://www.foxcoders.com/demo/Tutbits/
 Author Name: Khakon
 Author URI: 
 Tag: Modern, Agency, Business
 Verson: 1.0.0
-Description: Eduaid is a responsive html5 education template 
+Description: Tutbits is a responsive html5 education template 
 
 ===========================
 CSS Index
@@ -72,7 +72,7 @@ button.close {
 }
 
 .hover_bg {
-  background-color: #57d96c;
+  background-color: #ff5202;
 }
 
 .hover_bg_2 {
