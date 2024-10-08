@@ -17,7 +17,6 @@
 </head>
 
 <body>
-   
     <!-- Start Header -->
     <header>
         <div class="header_top_area my-4">
@@ -33,14 +32,15 @@
                                     <img src="assets/images/location.png" alt="Location" class="img-fluid">
                                     <div class="info_data">
                                         <h6>Location</h6>
-                                        <p>Kilometer 4, Idiroko road Matrix Filling Station, Ota, Ogun State.</p>
+                                        <p> Plot 36, Great Estate Phase One, Atan-Ota, Ogun State, Nigeria.
+.</p>
                                     </div>
                                 </div>
                                 <div class="single_info">
                                     <img src="assets/images/phone.png" alt="Location" class="img-fluid">
                                     <div class="info_data">
                                         <h6>Phone</h6>
-                                        <p>+880 2456 547</p>
+                                        <p>+234 810 1096 623 </p>
                                     </div>
                                 </div>
                                 <div class="single_info">
@@ -200,7 +200,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="page-hrader text-white text-center">
-                            <h1 class="display-2">Admission Form</h1>
+                            <h1 class="display-2">Coordinator Application Form</h1>
                             <div class="page-breadcrumb">
                                 <p><a class="text-white" href="index.html">Home</a> - Apply</p>
                             </div>
@@ -220,18 +220,19 @@
             <div class="row">
                 <div class="col-md-10 mx-auto">
                     <div class="apply-wrapper">
-                        <h2>Apply this form to admission</h2>
+                        <h2> Coordinator Application Form</h2>
+                        <h4></h4>
                         <form action="#" class="apply_form bg_dark_9 p-5">
                             <div class="row g-4">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="user_first_name">Enter First Name</label>
+                                        <label for="user_first_name">First Name</label>
                                         <input type="text" class="form-control" placeholder="First Name">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="user_last_name">Enter Last Name</label>
+                                        <label for="user_last_name">Last Name</label>
                                         <input type="text" class="form-control" placeholder="Last Name">
                                     </div>
                                 </div>
@@ -239,88 +240,110 @@
                             <!-- <div class="row"> -->
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="user_class">Class you want to apply for*</label>
-                                        <select name="user_class" id="user_class" class="form-control">
-                                            <option value="1">Class One</option>
-                                            <option value="2">Class Two</option>
-                                            <option value="3">Class Three</option>
-                                            <option value="4">Class Four</option>
-                                            <option value="5">Class Five</option>
+                                        <label for="coordinator_email">Email Address</label>
+                                        <input type="email" id="coordinator_email" class="form-control" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="coordinator_phone">Phone Number</label>
+                                        <input type="text" id="coordinator_phone" class="form-control" placeholder="Phone Number">
+                                    </div>
+                                </div>    
+                            <!-- </div> -->
+                            <!-- <div class="row"> -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="coordinator_role">Role</label>
+                                        <select id="coordinator_role" class="form-control">
+                                            <option value="Student">Student</option>
+                                            <option value="Coordinator">Coordinator</option>
+                                            <option value="Tutor">Tutor</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="user_last_name">Student’s Birthday</label>
-                                        <input type="text" class="form-control" placeholder="MM/DD/YY">
+                                        <label for="coordinator_address">Address</label>
+                                        <input type="text" id="coordinator_address" class="form-control" placeholder="Address">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="coordinator_address">City</label>
+                                        <input type="text" id="coordinator_city" class="form-control" placeholder="city">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="coordinator_address">State</label>
+                                        <input type="text" id="coordinator_state" class="form-control" placeholder="state">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="coordinator_zipcode">Zip Code</label>
+                                        <input type="text" id="coordinator_zipcode" class="form-control" placeholder="e.g., 12345" pattern="\d{5}(-\d{4})?" title="Enter a valid zip code (e.g., 12345 or 12345-6789)">
                                     </div>
                                 </div>
                             <!-- </div> -->
                             <!-- <div class="row"> -->
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="guardian_first_name">Parents/ Guardian First Name</label>
-                                        <input type="text" class="form-control" placeholder="First Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="guardian_last_name">Parents/ Guardian Last Name</label>
-                                        <input type="text" class="form-control" placeholder="Last Name">
-                                    </div>
-                                </div>
-                            <!-- </div> -->
-                            <!-- <div class="row"> -->
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="std_address">Student's Address</label>
-                                        <input type="text" class="form-control" placeholder="State Address">
+                                        <label for="preferred_communication">Preferred Method of Communication</label>
+                                        <select id="preferred_communication" class="form-control">
+                                            <option value="Email">Email</option>
+                                            <option value="Phone">Phone</option>
+                                            <option value="SMS">SMS</option>
+                                        </select>
                                     </div>
                                 </div>
                             <!-- </div> -->
                             <!-- <div class="row"> -->
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="user_city">City</label>
-                                        <input type="text" class="form-control" placeholder="City">
+                                        <label for="school_name">School Name</label>
+                                        <input type="text" id="school_name" class="form-control" placeholder="School Name">
                                     </div>
                                 </div>
+    
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="user_last_name">Country</label>
-                                        <input type="text" class="form-control" placeholder="Country">
+                                        <label for="faculty">Faculty</label>
+                                        <input type="text" id="faculty" class="form-control" placeholder="Faculty">
                                     </div>
                                 </div>
                             <!-- </div> -->
                             <!-- <div class="row"> -->
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="user_phone_number">Phone Number</label>
-                                        <input type="text" class="form-control" placeholder="Phone Number">
+                                        <label for="department">Department</label>
+                                        <input type="text" id="department" class="form-control" placeholder="Department">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="user_email">Email Address</label>
-                                        <input type="text" class="form-control" placeholder="Email Address">
-                                    </div>
+                                <div class="form-group">
+                                    <label for="experience_background">Experience/Background</label>
+                                    <textarea id="experience_background" class="form-control" rows="3" placeholder="Experience/Background"></textarea>
                                 </div>
+                            </div>
                             <!-- </div> -->
                             <!-- <div class="row"> -->
-                                <div class="col-md-12">
+                                <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="user_comment">Write Your Comment</label>
-                                        <textarea name="user_comment" class="form-control" id="user_comment" cols="30" rows="5" placeholder="Your Comment"></textarea>
+                                        <label for="areas_expertise">Areas of Expertise</label>
+                                        <input type="text" id="areas_expertise" class="form-control" placeholder="Subject or Program">
                                     </div>
                                 </div>
+    
                             <!-- </div> -->
                             <!-- <div class="row"> -->
-                                <div class="col-md-12">
+                                <!-- <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="user_signature">Digital Signature</label>
                                         <textarea name="user_signature" class="form-control" id="user_signature" cols="30" rows="5" placeholder="Your Signature"></textarea>
                                     </div>
-                                </div>
+                                </div> -->
                             <!-- </div> -->
                             <!-- <div class="row"> -->
                                 <div class="col-md-12 mx-auto text-center">
@@ -338,7 +361,7 @@
 
 
     <!-- Start Footer -->
-    <footer data-aos="fade-up">
+    <!-- <footer data-aos="fade-up">
         <div class="subscribe-area">
             <div class="container">
                 <div class="row">
@@ -375,7 +398,7 @@
                                     <div class="footer-logo">
                                         <a href="index.html"><img src="assets/images/footer_logo.png" alt="" class="img-fluid"></a>
                                     </div>
-                                    <p>900 Lucerne Station Road Terrace, Orlando, FL 32806, USA contact@eduaid.com</p>
+                                    <p>900 Lucerne Station Road Terrace, Orlando, FL 32806, USA contact@Tutbits.com</p>
                                     <span>+892 5555 444</span>
                                 </div>
                             </div>
@@ -446,7 +469,7 @@
                         <div class="col-md-12">
                             <div class="footer-bottom">
                                 <div class="copyright-text">
-                                    <p>Eduaid 2019. All Rights Reserved.</p>
+                                    <p>Tutbits 2019. All Rights Reserved.</p>
                                 </div>
                                 <div class="social-accounts">
                                     <ul>
@@ -461,7 +484,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- End Footer -->
 
 

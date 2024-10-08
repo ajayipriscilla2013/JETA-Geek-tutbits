@@ -324,7 +324,263 @@
                             <!-- </div> -->
                             <!-- <div class="row"> -->
                                 <div class="col-md-12 mx-auto text-center">
-                                    <button type="submit" class="button_one mt-3">Submit Form</button>
+                                    <button type="submit" class="button_one mt-3" >Submit Form</button>
+                                    <form action="std_app_form.php" method="POST">
+
+                                             <!-- Student Evaluation Form -->
+                                    <div class="page-wrapper section-ptb-3" data-aos="fade-up">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-10 mx-auto">
+                                                    <div class="apply-wrapper">
+                                                        <h2>Students Evaluation Form</h2>
+                                                        <form action="#" class="apply_form bg_dark_9 p-5">
+
+                                                            <!-- Section 1: Student Information -->
+                                                            <h3>Student Information</h3>
+                                                            <div class="row g-4">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="user_first_name">Student's Full
+                                                                            Name</label>
+                                                                        <input type="text" id="user_first_name"
+                                                                            class="form-control"
+                                                                            placeholder="Full Name">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="students_id">Student's ID</label>
+                                                                        <input type="text" id="students_id"
+                                                                            class="form-control"
+                                                                            placeholder="Student's ID">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <br>
+
+                                                            <!-- Section 2: Course Information -->
+                                                            <h3>Course Information</h3>
+                                                            <div class="row g-4">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="course_title">Course
+                                                                            Title/Code</label>
+                                                                        <input type="text" id="course_title"
+                                                                            class="form-control"
+                                                                            placeholder="Enter Course Title/Code">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="start_end_time">Start/End
+                                                                            Time</label>
+                                                                        <input type="time" id="start_end_time"
+                                                                            class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <br>
+
+                                                            <!-- Section 3: Tutor Information -->
+                                                            <h3>Tutor Information</h3>
+                                                            <div class="row g-4">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="tutor_name">Tutor's Full
+                                                                            Name</label>
+                                                                        <input type="text" id="tutor_name"
+                                                                            class="form-control"
+                                                                            placeholder="Tutor's Full Name">
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- Overall Satisfaction with Tutor -->
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label>Overall Satisfaction with Tutor (Rating:
+                                                                            1 to 5 stars)</label>
+                                                                        <div class="rating" id="overallRating">
+                                                                            <span class="star" data-value="5">☆</span>
+                                                                            <span class="star" data-value="4">☆</span>
+                                                                            <span class="star" data-value="3">☆</span>
+                                                                            <span class="star" data-value="2">☆</span>
+                                                                            <span class="star" data-value="1">☆</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <br>
+
+                                                            <div class="row g-4">
+                                                                <!-- Clarity of Teaching -->
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label>Clarity of Teaching (Rating: 1 to 5
+                                                                            stars)</label>
+                                                                        <div class="rating" id="clarityRating">
+                                                                            <span class="star" data-value="5">☆</span>
+                                                                            <span class="star" data-value="4">☆</span>
+                                                                            <span class="star" data-value="3">☆</span>
+                                                                            <span class="star" data-value="2">☆</span>
+                                                                            <span class="star" data-value="1">☆</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <br>
+
+                                                                <!-- Tutor's Understanding of Course Content -->
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label>Tutor's Understanding of Course Content
+                                                                            (Rating: 1 to 5 stars)</label>
+                                                                        <div class="rating" id="contentRating">
+                                                                            <span class="star" data-value="5">☆</span>
+                                                                            <span class="star" data-value="4">☆</span>
+                                                                            <span class="star" data-value="3">☆</span>
+                                                                            <span class="star" data-value="2">☆</span>
+                                                                            <span class="star" data-value="1">☆</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <br>
+
+                                                            <!--Helpfullness of the session  -->
+                                                            <div class="col-md-6">
+                                                                <div class="form-group">
+                                                                    <label>Helpfulness of the Session (Rating: 1 to 5
+                                                                        stars)</label>
+                                                                    <div class="rating" id="helpfulness rating">
+                                                                        <span class="star" data-value="5">☆</span>
+                                                                        <span class="star" data-value="4">☆</span>
+                                                                        <span class="star" data-value="3">☆</span>
+                                                                        <span class="star" data-value="2">☆</span>
+                                                                        <span class="star" data-value="1">☆</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <br>
+                                                    <!-- Platform Feedback -->
+                                                    <h3>Platform Feedback</h3>
+                                                    <div class="row g-4">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="course_title">Ease of Scheduling Tutorship
+                                                                    Sessions (Rating: 1 to 5 stars) </label>
+                                                                <div class="rating" id="tutorship rating">
+                                                                    <span class="star" data-value="5">☆</span>
+                                                                    <span class="star" data-value="4">☆</span>
+                                                                    <span class="star" data-value="3">☆</span>
+                                                                    <span class="star" data-value="2">☆</span>
+                                                                    <span class="star" data-value="1">☆</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="notifications"> Timeliness of Notifications
+                                                                    (Rating: 1 to 5 stars) </label>
+                                                                <div class="rating" id="notifications rating">
+                                                                    <span class="star" data-value="5">☆</span>
+                                                                    <span class="star" data-value="4">☆</span>
+                                                                    <span class="star" data-value="3">☆</span>
+                                                                    <span class="star" data-value="2">☆</span>
+                                                                    <span class="star" data-value="1">☆</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="notifications">Ease of Accessing Study Materials
+                                                            </label>
+                                                            <div class="rating" id="study materials rating">
+                                                                <span class="star" data-value="5">☆</span>
+                                                                <span class="star" data-value="4">☆</span>
+                                                                <span class="star" data-value="3">☆</span>
+                                                                <span class="star" data-value="2">☆</span>
+                                                                <span class="star" data-value="1">☆</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <!-- Suggestions for Improvement -->
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="suggestions">Suggestions for Improvement</label>
+                                                        <textarea name="suggestions" class="form-control"
+                                                            id="suggestions" cols="30" rows="5"
+                                                            placeholder="suggestions for improvement"></textarea>
+                                                    </div>
+
+                                                    <!-- Self Evaluation -->
+                                                    <h3>Self Evaluation</h3>
+                                                    <div class="row g-4">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="self_evaluation">How well do you understand
+                                                                    the course content after the session? (Rating: 1 to
+                                                                    5 stars) </label>
+                                                                <div class="rating" id="study materials rating">
+                                                                    <span class="star" data-value="5">☆</span>
+                                                                    <span class="star" data-value="4">☆</span>
+                                                                    <span class="star" data-value="3">☆</span>
+                                                                    <span class="star" data-value="2">☆</span>
+                                                                    <span class="star" data-value="1">☆</span>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="subject_improvement">Are you improving in
+                                                                    this subject? </label>
+                                                                <select name="navbarDropdown" id="subject_improvement"
+                                                                    class="form-control">
+                                                                    <option value="1">Select Option</option>
+                                                                    <option value="2"> Yes</option>
+                                                                    <option value="3"> No</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="exam_prep">Do you feel prepared for upcoming
+                                                                    tests/exams? </label>
+                                                                <select name="navbarDropdown" id="exam_prep"
+                                                                    class="form-control">
+                                                                    <option value="1">Select Option</option>
+                                                                    <option value="2"> Yes</option>
+                                                                    <option value="3"> No</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="comments">Additional comments</label>
+                                                                <textarea name="comments" class="form-control"
+                                                                    id="comments" cols="30" rows="5"
+                                                                    placeholder="additional comments"></textarea>
+                                                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                                    </form>
                                 </div>
                             </div>
                         </form>
@@ -338,7 +594,7 @@
 
 
     <!-- Start Footer -->
-    <footer data-aos="fade-up">
+    <!-- <footer data-aos="fade-up">
         <div class="subscribe-area">
             <div class="container">
                 <div class="row">
@@ -461,7 +717,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- End Footer -->
 
 
