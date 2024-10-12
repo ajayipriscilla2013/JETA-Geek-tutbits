@@ -1,4 +1,4 @@
-name: Deploy Undergraduate Student Account to cPanel Test Server
+name: Deploy TUTBITS to cPanel Test Server
 on:
   push:
     branches:
@@ -19,4 +19,4 @@ jobs:
           server: ${{ secrets.FTP_TEST_SERVER }}
           username: ${{ secrets.FTP_TEST_USERNAME }}
           password: ${{ secrets.FTP_TEST_PASSWORD }}
-          server-dir: /public_html/applications/studentaccount/
+          server-dir: /tutbits.sev/
