@@ -1,4 +1,4 @@
-name: Deploy Undergraduate Student Account to cPanel
+name: Deploy TUTBITS Main to cPanel
 on:
   push:
     branches:
@@ -19,4 +19,4 @@ jobs:
           server: ${{ secrets.FTP_MAIN_SERVER }}
           username: ${{ secrets.FTP_MAIN_USERNAME }}
           password: ${{ secrets.FTP_MAIN_PASSWORD }}
-          server-dir: /tutbits.sev/
+          server-dir: /public_html/
