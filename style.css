@@ -48,10 +48,38 @@ a {
   text-decoration: none;
 }
 
+
 .z-index {
   z-index: 1;
   position: relative;
 }
+.site_logo{
+ text-align: left;
+ float: left;
+ margin-top: -50px;
+ margin: bottom -100px;;
+}
+.title_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  width: 100%;            
+  margin-bottom: 20px;
+}
+.school_name {
+  text-align: center;
+  font-weight: bold;
+  color: #800040;
+  font-size: 30px;
+  margin: 0;              
+ font-family: Arial, Helvetica, sans-serif;            
+}
+.welcome_content{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+
 
 @media (min-width: 1200px) {
   .container {
@@ -4334,8 +4362,10 @@ body p {
 10. Start Footer
 **********************/
 .footer-bottom-wrapper {
-  border-color: rgba(255, 255, 255, 0.3) !important;
+ border-color: rgba(255, 255, 255, 0.3) !important;
+ display:flex;
 }
+
 
 .footer-area {
   color: #fff;
@@ -4574,9 +4604,11 @@ body p {
 @media (max-width: 575px) {
   .footer-bottom {
     text-align: center;
+    
   }
   .footer-bottom .copyright-text, .footer-bottom .social-accounts, .footer-bottom .social-accounts-2 {
     width: 100%;
+    display:flex;
   }
   .footer-bottom .copyright-text {
     margin-bottom: 15px;
@@ -4586,6 +4618,24 @@ body p {
   margin-bottom: 0;
 }
 
+
+  .footer-bottom{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  } 
+
+/* .footer-bottom > div{
+  width: 100%;
+  text-align: justify;
+ justify-content: space-around;
+} */
+
+.logo-ft{
+ display: inline-flex;
+ background: none;
+
+}
 .address-widget p {
   line-height: 2rem;
 }
@@ -5593,7 +5643,11 @@ body p {
   padding-bottom: 35px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  
 }
+
+
+
 @media (max-width: 575px) {
   .apply-wrapper h2 {
     font-size: 35px;
@@ -5632,6 +5686,16 @@ body p {
   color: #002147;
   margin-bottom: 10px;
 }
+.abc-d{
+    color:  #800080; /* Text color */
+    border: 2px solid black; /* Border color and width */
+    padding: 2px; /* Space inside the border */
+    text-align: left; 
+    border-radius: 3px; /* Rounded corners (optional) */
+    background-color: orangered;
+}
+
+
 
 /*******************************
 21. Notice page
@@ -6021,6 +6085,7 @@ body p {
 .height-470 {
   height: 325px;
 }
+
 
 @media (max-width: 575px) {
   .slider-area-2 .slider-content-2 p {

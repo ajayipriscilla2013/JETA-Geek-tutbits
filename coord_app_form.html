@@ -138,142 +138,116 @@
             <div class="row">
                 <div class="col-md-10 mx-auto">
                     <div class="apply-wrapper">
-                        <h2> Coordinator Application Form</h2>
+                        <!-- <h2> Coordinator Application Form</h2> -->
                         <h4></h4>
-                        <form action="#" class="apply_form bg_dark_9 p-5">
-                            <div class="row g-4">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="user_first_name">First Name</label>
-                                        <input type="text" class="form-control" placeholder="First Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="user_last_name">Last Name</label>
-                                        <input type="text" class="form-control" placeholder="Last Name">
-                                    </div>
-                                </div>
-                            <!-- </div> -->
-                            <!-- <div class="row"> -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="coordinator_email">Email Address</label>
-                                        <input type="email" id="coordinator_email" class="form-control" placeholder="Email Address">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="coordinator_phone">Phone Number</label>
-                                        <input type="text" id="coordinator_phone" class="form-control" placeholder="Phone Number">
-                                    </div>
-                                </div>    
-                            <!-- </div> -->
-                            <!-- <div class="row"> -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="coordinator_role">Role</label>
-                                        <select id="coordinator_role" class="form-control">
-                                            <option value="Student">Student</option>
-                                            <option value="Coordinator">Coordinator</option>
-                                            <option value="Tutor">Tutor</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="coordinator_address">Address</label>
-                                        <input type="text" id="coordinator_address" class="form-control" placeholder="Address">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="coordinator_address">City</label>
-                                        <input type="text" id="coordinator_city" class="form-control" placeholder="city">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="coordinator_address">State</label>
-                                        <input type="text" id="coordinator_state" class="form-control" placeholder="state">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="coordinator_zipcode">Zip Code</label>
-                                        <input type="text" id="coordinator_zipcode" class="form-control" placeholder="e.g., 12345" pattern="\d{5}(-\d{4})?" title="Enter a valid zip code (e.g., 12345 or 12345-6789)">
-                                    </div>
-                                </div>
-                            <!-- </div> -->
-                            <!-- <div class="row"> -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="preferred_communication">Preferred Method of Communication</label>
-                                        <select id="preferred_communication" class="form-control">
-                                            <option value="Email">Email</option>
-                                            <option value="Phone">Phone</option>
-                                            <option value="SMS">SMS</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            <!-- </div> -->
-                            <!-- <div class="row"> -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="school_name">School Name</label>
-                                        <input type="text" id="school_name" class="form-control" placeholder="School Name">
-                                    </div>
-                                </div>
-    
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="faculty">Faculty</label>
-                                        <input type="text" id="faculty" class="form-control" placeholder="Faculty">
-                                    </div>
-                                </div>
-                            <!-- </div> -->
-                            <!-- <div class="row"> -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="department">Department</label>
-                                        <input type="text" id="department" class="form-control" placeholder="Department">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="experience_background">Experience/Background</label>
-                                    <textarea id="experience_background" class="form-control" rows="3" placeholder="Experience/Background"></textarea>
-                                </div>
-                            </div>
-                            <!-- </div> -->
-                            <!-- <div class="row"> -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="areas_expertise">Areas of Expertise</label>
-                                        <input type="text" id="areas_expertise" class="form-control" placeholder="Subject or Program">
-                                    </div>
-                                </div>
-    
-                            <!-- </div> -->
-                            <!-- <div class="row"> -->
-                                <!-- <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="user_signature">Digital Signature</label>
-                                        <textarea name="user_signature" class="form-control" id="user_signature" cols="30" rows="5" placeholder="Your Signature"></textarea>
-                                    </div>
-                                </div> -->
-                            <!-- </div> -->
-                            <!-- <div class="row"> -->
-                                <div class="col-md-12 mx-auto text-center">
-                                    <button type="submit" class="button_one mt-3">Submit Form</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                        <form action="your_form_handler.php" method="POST" class="apply_form bg_dark_9 p-5">
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="user_first_name">First Name</label>
+                <input type="text" class="form-control" name="user_first_name" placeholder="First Name" required>
             </div>
         </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="user_last_name">Last Name</label>
+                <input type="text" class="form-control" name="user_last_name" placeholder="Last Name" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="coordinator_email">Email Address</label>
+                <input type="email" id="coordinator_email" class="form-control" name="coordinator_email" placeholder="Email Address" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="coordinator_phone">Phone Number</label>
+                <input type="text" id="coordinator_phone" class="form-control" name="coordinator_phone" placeholder="----" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="coordinator_role">Role</label>
+                <select id="coordinator_role" class="form-control" name="coordinator_role" required>
+                    <option value="Student">Student</option>
+                    <option value="Coordinator">Coordinator</option>
+                    <option value="Tutor">Tutor</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="coordinator_address">Address</label>
+                <input type="text" id="coordinator_address" class="form-control" name="coordinator_address" placeholder="Address" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="coordinator_city">City</label>
+                <input type="text" id="coordinator_city" class="form-control" name="coordinator_city" placeholder="City" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="coordinator_state">State</label>
+                <input type="text" id="coordinator_state" class="form-control" name="coordinator_state" placeholder="State" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="coordinator_zipcode">Zip Code</label>
+                <input type="text" id="coordinator_zipcode" class="form-control" name="coordinator_zipcode" placeholder="e.g., 12345" pattern="\d{5}(-\d{4})?" title="Enter a valid zip code (e.g., 12345 or 12345-6789)" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="preferred_communication">Preferred Method of Communication</label>
+                <select id="preferred_communication" class="form-control" name="preferred_communication" required>
+                    <option value="Email">Email</option>
+                    <option value="Phone">Phone</option>
+                    <option value="SMS">SMS</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="school_name">School Name</label>
+                <input type="text" id="school_name" class="form-control" name="school_name" placeholder="School Name" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="faculty">Faculty</label>
+                <input type="text" id="faculty" class="form-control" name="faculty" placeholder="Faculty" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="department">Department</label>
+                <input type="text" id="department" class="form-control" name="department" placeholder="Department" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="experience_background">Experience/Background</label>
+                <textarea id="experience_background" class="form-control" name="experience_background" rows="3" placeholder="Experience/Background"></textarea>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="areas_expertise">Areas of Expertise</label>
+                <input type="text" id="areas_expertise" class="form-control" name="areas_expertise" placeholder="Subject or Program" required>
+            </div>
+        </div>
+        <div class="col-md-12 mx-auto text-center">
+            <button type="submit" class="button_one mt-3">Submit Form</button>
+          </div>
+        </div>
+      </form>
+     </div>
     </div>
+
 
 
 
