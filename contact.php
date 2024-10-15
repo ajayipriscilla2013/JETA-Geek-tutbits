@@ -30,7 +30,7 @@
                             </div>
                         <div class="title_name">
                             <div class="school_name">
-                                <p> ⁠TUTBITS(A Tutorial Platform for Academic Distinctions)</p>
+                                <p> ⁠TUTBITS (A Tutorial Platform for Academic Distinctions)</p>
                                 
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                                                 <li><a class="dropdown-item" href="std_app_form.php">Student Application Form</a></li>
                                                 <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li>
                                                 <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li>
-                                                <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li>
+                                                <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> -->
                                                // <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> -->
                                             </ul>
                                         </li>
