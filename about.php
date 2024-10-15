@@ -100,7 +100,7 @@
                                                 <li><a class="dropdown-item" href="std_app_form.php">Student Application Form</a></li>
                                                 <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li>
                                                 <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li>
-                                                <!-- <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> --> -->
+                                                <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> --> 
                                                <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> --> 
                                             </ul>
                                         </li>
@@ -241,25 +241,25 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 mb-xs-5">
                     <div class="single-countdown">
-                        <span class="counter">60</span>
+                        <span class="counter">---</span>
                         <p>Tutors</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-xs-5">
                     <div class="single-countdown">
-                        <span class="counter">800</span>
+                        <span class="counter">---</span>
                         <p>Students</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-xs-5">
                     <div class="single-countdown">
-                        <span class="counter">37</span>
+                        <span class="counter">---</span>
                         <p>Courses</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="single-countdown">
-                        <span class="counter">19</span>
+                        <span class="counter">---</span>
                         <p>Coordinators</p>
                     </div>
                 </div>
