@@ -7,7 +7,7 @@
                            <div class="single_widget">
                                <div class="address-widget">
                                    <div class="footer-logo">
-                                       <a href="index.html"><img src="assets/img/pic10 logo.jpg" alt="logo"
+                                       <a href="index.php"><img src="assets/img/pic10 logo.jpg" alt="logo"
                                                class="img-fluid"></a>
                                    </div> -->
     <div class="footer-bottom-wrapper border-top py-3">

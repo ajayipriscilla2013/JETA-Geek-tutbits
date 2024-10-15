@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,95 +19,7 @@
 
 <body>
     <!-- Start Header -->
-    <header>
-        <div class="header_top_area my-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="header_top d-flex justify-content-between">
-                            <div class="site_logo">
-                                <a href="index.html"><img src="assets/img/pic10 logo.jpg" alt="logo" height="140px"
-                                        width="140px" class="img-fluid"></a>
-                            </div>
-                            <div class="site_info d-flex justify-content-between">
-                                <div class="single_info">
-                                    <img src="assets/images/location.png" alt="Location" class="img-fluid">
-                                    <div class="info_data">
-                                        <h6>Location</h6>
-                                        <p> Plot 36, Great Estate Phase One, Atan-Ota, Ogun State, Nigeria.
-                                            .</p>
-                                    </div>
-                                </div>
-                                <div class="single_info">
-                                    <img src="assets/images/phone.png" alt="Location" class="img-fluid">
-                                    <div class="info_data">
-                                        <h6>Phone</h6>
-                                        <p>+234 810 1096 623 </p>
-                                    </div>
-                                </div>
-                                <div class="single_info">
-                                    <button class="special-button"
-                                        onclick="window.location.href = 'apply_form.html';">Apply Now <i
-                                            class="fa fa-angle-right"></i> <span class="button_icon"><i
-                                                class="far fa-file-alt"></i></span></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main-menu-area bg_dark_mobile">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="main-menu default_bg">
-                            <nav class="navbar navbar-expand-lg">
-                                <div class="mobile_site_logo d-none">
-                                    <a href="index.html"><img src="assets/images/footer_logo.png" alt="logo"
-                                            class="img-fluid"></a>
-                                </div>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <i class="fa fa-bars"></i>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                                        <li class="nav-item dropdown">
-                                            <a class="dropdown-item" href="index.html">Home</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="about.html">About</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                role="button" data-bs-toggle="dropdown">
-                                                Forms
-                                            </a>
-                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li class="nav-item dropdown">
-                                                <li><a class="dropdown-item" href="std_app_form.html">Student Application Form</a></li>
-                                                <li><a class="dropdown-item" href="coord_app_form.html">Coordinator Application Form</a></li>
-                                                <li><a class="dropdown-item" href="tutor_app_form.html">Tutor Application Form</a></li>
-                                                <li><a class="dropdown-item" href="tutor_log_form.html">Tutorship Log Form</a></li>
-                                                <li><a class="dropdown-item" href="std_eval_form.html">Students Evaluation Form</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="contact.html" class="nav-link">Contact Us</a>
-                                        </li>
-                                        <!-- <li><a class="dropdown-item" href="gallery.html">Gallery</a></li> -->
-                                 
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </header>
+   
     <!-- End Header -->
 
 
@@ -120,7 +33,7 @@
                         <div class="page-hrader text-white text-center">
                             <h1 class="display-2">Coordinator Application Form</h1>
                             <div class="page-breadcrumb">
-                                <p><a class="text-white" href="index.html">Home</a> - Apply</p>
+                                <p><a class="text-white" href="index.php">Home</a> - Apply</p>
                             </div>
                         </div>
                     </div>
@@ -140,7 +53,7 @@
                     <div class="apply-wrapper">
                         <!-- <h2> Coordinator Application Form</h2> -->
                         <h4></h4>
-                        <form action="your_form_handler.php" method="POST" class="apply_form bg_dark_9 p-5">
+                        <form action="coord_app_submit.php" method="POST" class="apply_form bg_dark_9 p-5">
     <div class="row g-4">
         <div class="col-md-6">
             <div class="form-group">
@@ -163,19 +76,13 @@
         <div class="col-md-6">
             <div class="form-group">
                 <label for="coordinator_phone">Phone Number</label>
-                <input type="text" id="coordinator_phone" class="form-control" name="coordinator_phone" placeholder="----" required>
+                <input type="text" id="coordinator_phone" class="form-control" name="coordinator_phone" placeholder="phone_number" required>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="form-group">
-                <label for="coordinator_role">Role</label>
-                <select id="coordinator_role" class="form-control" name="coordinator_role" required>
-                    <option value="Student">Student</option>
-                    <option value="Coordinator">Coordinator</option>
-                    <option value="Tutor">Tutor</option>
-                </select>
-            </div>
-        </div>
+    <!-- start adress -->
+     <div class="abc_h">
+        <h3>Residential Details</h3>
+    </div>
         <div class="col-md-6">
             <div class="form-group">
                 <label for="coordinator_address">Address</label>
@@ -196,10 +103,20 @@
         </div>
         <div class="col-md-6">
             <div class="form-group">
+                <label for="coordinator_country">Country</label>
+                <input type="text" id="coordinator_country" class="form-control" name="coordinator_country" placeholder="country" required>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group">
                 <label for="coordinator_zipcode">Zip Code</label>
                 <input type="text" id="coordinator_zipcode" class="form-control" name="coordinator_zipcode" placeholder="e.g., 12345" pattern="\d{5}(-\d{4})?" title="Enter a valid zip code (e.g., 12345 or 12345-6789)" required>
             </div>
         </div>
+
+        <!-- other info -->
+         <h3> Other information </h3>
         <div class="col-md-6">
             <div class="form-group">
                 <label for="preferred_communication">Preferred Method of Communication</label>
@@ -212,32 +129,8 @@
         </div>
         <div class="col-md-6">
             <div class="form-group">
-                <label for="school_name">School Name</label>
-                <input type="text" id="school_name" class="form-control" name="school_name" placeholder="School Name" required>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="form-group">
-                <label for="faculty">Faculty</label>
-                <input type="text" id="faculty" class="form-control" name="faculty" placeholder="Faculty" required>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="form-group">
-                <label for="department">Department</label>
-                <input type="text" id="department" class="form-control" name="department" placeholder="Department" required>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="form-group">
                 <label for="experience_background">Experience/Background</label>
                 <textarea id="experience_background" class="form-control" name="experience_background" rows="3" placeholder="Experience/Background"></textarea>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="form-group">
-                <label for="areas_expertise">Areas of Expertise</label>
-                <input type="text" id="areas_expertise" class="form-control" name="areas_expertise" placeholder="Subject or Program" required>
             </div>
         </div>
         <div class="col-md-12 mx-auto text-center">
@@ -293,7 +186,7 @@
                             <div class="single_widget">
                                 <div class="address-widget">
                                     <div class="footer-logo">
-                                        <a href="index.html"><img src="assets/images/footer_logo.png" alt="" class="img-fluid"></a>
+                                        <a href="index.php"><img src="assets/images/footer_logo.png" alt="" class="img-fluid"></a>
                                     </div>
                                     <p>900 Lucerne Station Road Terrace, Orlando, FL 32806, USA contact@Tutbits.com</p>
                                     <span>+892 5555 444</span>

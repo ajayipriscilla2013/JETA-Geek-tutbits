@@ -25,17 +25,28 @@
                     <div class="col-md-12">
                         <div class="header_top d-flex justify-content-between">
                             <div class="site_logo">
-                                <a href="index.html"><img src="assets/img/pic10 logo.jpg" alt="logo" height="140px"
-                                        width="140px" class="img-fluid"></a>
+                                <a href="index.php"><img src="assets/img/pic10 logo.jpg" alt="logo" height="300px"
+                                        width="300px" class="img-fluid"></a>
                             </div>
+                        <div class="title_name">
+                            <div class="school_name">
+                                <p> ⁠TUTBITS(A Tutorial Platform for Academic Distinctions)</p>
+                                
+                            </div>
+                        </div>
+                        </div>
                             <div class="site_info d-flex justify-content-between">
                                 <div class="single_info">
                                     <img src="assets/images/location.png" alt="Location" class="img-fluid">
                                     <div class="info_data">
                                         <h6>Location</h6>
-                                        <p> Plot 36, Great Estate Phase One, Atan-Ota, Ogun State, Nigeria.
-                                            .</p>
+                                        <p> Plot 36, Great Estate Phase One, Atan-Ota, Ogun State, Nigeria. </p>
                                     </div>
+
+                                    <!-- <div class="school_name">
+                                        <p>Tutbits (An undergraduate tutorial platform)
+                                        </p>
+                                    </div>  -->
                                 </div>
                                 <div class="single_info">
                                     <img src="assets/images/phone.png" alt="Location" class="img-fluid">
@@ -63,7 +74,7 @@
                         <div class="main-menu default_bg">
                             <nav class="navbar navbar-expand-lg">
                                 <div class="mobile_site_logo d-none">
-                                    <a href="index.html"><img src="assets/images/footer_logo.png" alt="logo"
+                                    <a href="index.php"><img src="assets/img/pic10 logo.jpg" alt="logo"
                                             class="img-fluid"></a>
                                 </div>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -74,10 +85,10 @@
                                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                                     <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                                         <li class="nav-item dropdown">
-                                            <a class="dropdown-item" href="index.html">Home</a>
+                                            <a class="dropdown-item" href="index.php">Home</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="about.html">About</a>
+                                            <a class="nav-link" href="about.php">About</a>
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
@@ -86,18 +97,17 @@
                                             </a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <li class="nav-item dropdown">
-                                                <li><a class="dropdown-item" href="std_app_form.html">Student Application Form</a></li>
-                                                <li><a class="dropdown-item" href="coord_app_form.html">Coordinator Application Form</a></li>
-                                                <li><a class="dropdown-item" href="tutor_app_form.html">Tutor Application Form</a></li>
-                                                <li><a class="dropdown-item" href="tutor_log_form.html">Tutorship Log Form</a></li>
-                                                <li><a class="dropdown-item" href="std_eval_form.html">Students Evaluation Form</a></li>
+                                                <li><a class="dropdown-item" href="std_app_form.php">Student Application Form</a></li>
+                                                <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li>
+                                                <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li>
+                                                <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li>
+                                               <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> --> 
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="contact.html" class="nav-link">Contact Us</a>
+                                            <a href="contact.php" class="nav-link">Contact Us</a>
                                         </li>
-                                        <!-- <li><a class="dropdown-item" href="gallery.html">Gallery</a></li> -->
-                                 
+                                         <!-- <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>                                   -->
                                 </div>
                             </nav>
                         </div>
@@ -106,7 +116,7 @@
             </div>
             
         </div>
-    </header>
+    </header>  
     <!-- End Header -->
 
 
@@ -120,7 +130,7 @@
                         <!-- <div class="page-hrader text-white text-center">
                             <h1 class="display-2">About Us</h1>
                             <div class="page-breadcrumb">
-                                <p><a class="text-white" href="index.html">Home</a> - About us</p>
+                                <p><a class="text-white" href="index.php">Home</a> - About us</p>
                             </div>
                         </div> -->
                     </div>
@@ -278,7 +288,7 @@
                             <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, dicta!</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, fugit.</p> -->
-                            <a href="contact.html" class="button_one">Contact Us</a>
+                            <a href="contact.php" class="button_one">Contact Us</a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -518,7 +528,7 @@
                             <div class="single_widget">
                                 <div class="address-widget">
                                     <div class="footer-logo">
-                                        <a href="index.html"><img src="assets/images/footer_logo.png" alt=""
+                                        <a href="index.php"><img src="assets/images/footer_logo.png" alt=""
                                                 class="img-fluid"></a>
                                     </div>
                                     <p>900 Lucerne Station Road Terrace, Orlando, FL 32806, USA contact@Tutbits.com</p>
