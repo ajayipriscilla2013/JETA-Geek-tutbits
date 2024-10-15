@@ -26,7 +26,7 @@
                     <div class="col-md-12">
                         <div class="header_top d-flex justify-content-between">
                             <div class="site_logo">
-                                <a href="index.html"><img src="assets/img/pic10 logo.jpg" alt="logo" height="300px"
+                                <a href="index.php"><img src="assets/img/pic10 logo.jpg" alt="logo" height="300px"
                                         width="300px" class="img-fluid"></a>
                             </div>
                         <div class="title_name">
@@ -75,7 +75,7 @@
                         <div class="main-menu default_bg">
                             <nav class="navbar navbar-expand-lg">
                                 <div class="mobile_site_logo d-none">
-                                    <a href="index.html"><img src="assets/img/pic10 logo.jpg" alt="logo"
+                                    <a href="index.php"><img src="assets/img/pic10 logo.jpg" alt="logo"
                                             class="img-fluid"></a>
                                 </div>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -86,29 +86,29 @@
                                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                                     <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                                         <li class="nav-item dropdown">
-                                            <a class="dropdown-item" href="index.html">Home</a>
+                                            <a class="dropdown-item" href="index.php">Home</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="about.html">About</a>
+                                            <a class="nav-link" href="about.php">About</a>
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                                                 role="button" data-bs-toggle="dropdown">
                                                 Forms
                                             </a>
-                                            <<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <li class="nav-item dropdown">
-                                                <li><a class="dropdown-item" href="../tutbits/tutbitsforms/std_app_form.php">Student Application Form</a></li>
-                                                <li><a class="dropdown-item" href="../tutbits/tutbitsforms/coord_app_form.php">Coordinator Application Form</a></li>
-                                                <li><a class="dropdown-item" href="../tutbits//tutbitsforms/tutor_app_form.php">Tutor Application Form</a></li>
-                                                <li><a class="dropdown-item" href="../tutbits/tutbitsforms/tutor_log_form.php">Tutorship Log Form</a></li>
-                                                <li><a class="dropdown-item" href="../tutbits/tutbitsforms/std_eval_form.php">Students Evaluation Form</a></li>
+                                                <li><a class="dropdown-item" href="std_app_form.php">Student Application Form</a></li>
+                                                <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li>
+                                                <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li>
+                                                <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li>
+                                               // <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> -->
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="contact.html" class="nav-link">Contact Us</a>
+                                            <a href="contact.php" class="nav-link">Contact Us</a>
                                         </li>
-                                         <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>                                  
+                                         <!-- <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>                                   -->
                                 </div>
                             </nav>
                         </div>
@@ -131,7 +131,7 @@
                             <div class="slider-content text-white pb-5 mb-5">
                                 <h2 class="display-2">Empowering Education for a Fresh Start</h2>
                                 <p>Stay on Top of Your Studies with Course Compact Assistance</p>
-                                <a href="contact.html" class="button_one mt-4">Contact Us</a>
+                                <a href="contact.php" class="button_one mt-4">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                             <div class="slider-content text-white pb-5 mb-5">
                                 <h2 class="display-2">Achieve Academic Success with Personalized Support</h2>
                                 <p>Tutbits always ready to assist You all the way</p>
-                                <a href="contact.html" class="button_one mt-4">Contact Us</a>
+                                <a href="contact.php" class="button_one mt-4">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                             <div class="slider-content text-white pb-5 mb-5">
                                 <h2 class="display-2">Access to Great Educational Resources</h2>
                                 <p>Track Your Academic Progress with Tutbits' Assessment Tools</p>
-                                <a href="contact.html" class="button_one mt-4">Contact Us</a>
+                                <a href="contact.php" class="button_one mt-4">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -762,7 +762,7 @@
                             <div class="single_widget">
                                 <div class="address-widget">
                                     <div class="footer-logo">
-                                        <a href="index.html"><img src="assets/images/footer_logo.png" alt=""
+                                        <a href="index.php"><img src="assets/images/footer_logo.png" alt=""
                                                 class="img-fluid"></a>
                                     </div>
                                     <p>Canaancity Ota.</p>
@@ -840,7 +840,7 @@
                            <div class="single_widget">
                                <div class="address-widget">
                                    <div class="footer-logo">
-                                       <a href="index.html"><img src="assets/img/pic10 logo.jpg" alt="logo"
+                                       <a href="index.php"><img src="assets/img/pic10 logo.jpg" alt="logo"
                                                class="img-fluid"></a>
                                    </div> -->
     <div class="footer-bottom-wrapper border-top py-3">

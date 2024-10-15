@@ -25,16 +25,28 @@
                     <div class="col-md-12">
                         <div class="header_top d-flex justify-content-between">
                             <div class="site_logo">
-                                <a href="index.html"><img src="assets/img/pic10 logo.jpg" alt="logo" class="img-fluid" height="140px" width="140px"></a>
+                                <a href="index.php"><img src="assets/img/pic10 logo.jpg" alt="logo" height="300px"
+                                        width="300px" class="img-fluid"></a>
                             </div>
+                        <div class="title_name">
+                            <div class="school_name">
+                                <p> ⁠TUTBITS(A Tutorial Platform for Academic Distinctions)</p>
+                                
+                            </div>
+                        </div>
+                        </div>
                             <div class="site_info d-flex justify-content-between">
                                 <div class="single_info">
                                     <img src="assets/images/location.png" alt="Location" class="img-fluid">
                                     <div class="info_data">
                                         <h6>Location</h6>
-                                        <p> Plot 36, Great Estate Phase One, Atan-Ota, Ogun State, Nigeria.
-.</p>
+                                        <p> Plot 36, Great Estate Phase One, Atan-Ota, Ogun State, Nigeria. </p>
                                     </div>
+
+                                    <!-- <div class="school_name">
+                                        <p>Tutbits (An undergraduate tutorial platform)
+                                        </p>
+                                    </div>  -->
                                 </div>
                                 <div class="single_info">
                                     <img src="assets/images/phone.png" alt="Location" class="img-fluid">
@@ -44,7 +56,10 @@
                                     </div>
                                 </div>
                                 <div class="single_info">
-                                    <button class="special-button" onclick="window.location.href = 'apply_form.html';">Apply Now <i class="fa fa-angle-right"></i> <span class="button_icon"><i class="far fa-file-alt"></i></span></button>
+                                    <button class="special-button"
+                                        onclick="window.location.href = 'apply_form.html';">Apply Now <i
+                                            class="fa fa-angle-right"></i> <span class="button_icon"><i
+                                                class="far fa-file-alt"></i></span></button>
                                 </div>
                             </div>
                         </div>
@@ -59,144 +74,49 @@
                         <div class="main-menu default_bg">
                             <nav class="navbar navbar-expand-lg">
                                 <div class="mobile_site_logo d-none">
-                                    <a href="index.html"><img src="assets/img/pic16.jpg" alt="logo" class="img-fluid" ></a>
+                                    <a href="index.php"><img src="assets/img/pic10 logo.jpg" alt="logo"
+                                            class="img-fluid"></a>
                                 </div>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                                    aria-expanded="false" aria-label="Toggle navigation">
                                     <i class="fa fa-bars"></i>
                                 </button>
-
                                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                                    <!-- <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                          <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Home
-                                        </a> -->
-                                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                                            <li class="nav-item dropdown">
-                                                <a class="dropdown-item" href="index.html">Home</a>
-                                            </li>
-                                            <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                <a class="dropdown-item" href="index.html">Home - University</a>
-                                                <a class="dropdown-item" href="index-2.html">Home - Modern University</a>
-                                                <a class="dropdown-item" href="index-3.html">Home - Online Courses</a>
-                                                <a class="dropdown-item" href="index-4.html">Home - Kindergarten</a>
-
-                                            </div> -->
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="about.html">About</a>
-                                        </li>
-                                        <!-- <li class="nav-item">
-                                            <a class="nav-link" href="courses.html">Courses</a>
-                                        </li> -->
+                                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-                                              Forms
+                                            <a class="dropdown-item" href="index.php">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about.php">About</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown">
+                                                Forms
                                             </a>
-                                             <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><a class="dropdown-item" href="departments.html">Departments</a></li>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <li class="nav-item dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" href="#" id="blogDropdown1" role="button" data-bs-toggle="dropdown">
-                                                        Blog
-                                                    </a>
-                                                    <ul class="dropdown-menu" aria-labelledby="blogDropdown1">
-                                                        <li><a class="dropdown-item" href="blog_01.html">Blog 1</a></li>
-                                                        <li><a class="dropdown-item" href="blog_02.html">Blog 2</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a class="dropdown-item" href="blog_details.html">Blog Details</a></li>
-                                                <li><a class="dropdown-item" href="teachers.html">Teachers</a></li>
-                                                <li><a class="dropdown-item" href="teacher_details.html">Teacher Details</a></li>
-												<li><a class="dropdown-item" href="events.html">Events</a></li>
-												
+                                                <li><a class="dropdown-item" href="std_app_form.php">Student Application Form</a></li>
+                                                <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li>
+                                                <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li>
+                                                <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li>
+                                               // <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> -->
                                             </ul>
-                                        </li> -->
-                                        <!-- <li class="nav-item">
-                                            <a href="students.html" class="nav-link" id="blod_pages">
-                                                Students
-                                            </a>  -->
-                                        <!-- </li> -->
-                                        <!-- <li class="nav-item">
-                                            <a href="result.html" class="nav-link">Result</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="notice.html" class="nav-link">Notice</a>
-                                        </li> --> 
-                                        <li class="nav-item">
-                                            <a href="contact.html" class="nav-link">Contact</a>
+                                            <a href="contact.php" class="nav-link">Contact Us</a>
                                         </li>
-                                        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-                                        <!-- <li class="nav-item">
-                                            <a href="#search_modal" data-bs-toggle="modal" data-bs-target="#search_modal" class="nav-link"><i class="fa fa-search"></i></a>
-                                        </li> -->
-                                    </ul>
-                                    <!-- <div class="collapse-bar">
-                                        <a class="navbar-brand" data-bs-toggle="collapse" href="#languages_options"><i class="fa fa-bars"></i></a>
-                                        <div class="option-menu collapse" id="languages_options">
-                                            <nav>
-                                                <ul>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#">English</a>
-                                                        <a class="nav-link" href="#">Bangla</a>
-                                                        <a class="nav-link" href="#">Hindi</a>
-                                                        <a class="nav-link" href="#">Spanish</a>
-                                                    </li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                    </div> -->
+                                         <!-- <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>                                   -->
                                 </div>
                             </nav>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Button trigger modal -->
-            <!-- Start Search Modal -->
-            <div class="modal fade" id="search_modal">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title sm-sub-title">Search Here</h5>
-                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <!-- <div class="modal-body">
-                        <div class="search-widget">
-                                <form action="#">
-                                    <input type="text" class="form-control" placeholder="Search Here">
-                                    <button type="submit"><i class="fas fa-search"></i></button>
-                                </form>
-                        </div>
-                    <div class="search-results">
-                        <h5 class="my-4 sm-sub-title">10 Search Results Found</h5>
-                        <div class="theme-list">
-                            <ul>
-                                <li><a href="#">Smply dummy text of the printing and typesetting industry</a></li>
-                                <li><a href="#">Mauris at varius orci. Vestibulum um felis eu nisl pulvinar</a></li>
-                                <li><a href="#">Welcome To Our Campus For Learn</a></li>
-                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less </a></li>
-                                <li><a href="#">has a more-or-less normal distribution of letters, as opposed to using.</a></li>
-                                <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a></li>
-                                <li><a href="#">Build Education Website Using WP</a></li>
-                                <li><a href="#">Build Education Website Using WordPress </a></li>
-                                <li><a href="#">And Other Modern Technology</a></li>
-                                <li><a href="#">assumenda est. Our friendly support team is standing.</a></li>
-                            </ul>
-                        </div> -->
-                    <!-- </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="button_one" data-bs-dismiss="modal">Close</button>
-                </div>
-                </div>
-            </div>
-            </div> -->
-             <!-- End Search Modal -->
+            
         </div>
-    </header>
+    </header>  
     <!-- End Header -->
 
 
@@ -209,7 +129,7 @@
                         <div class="page-hrader text-white text-center">
                             <h1 class="display-2">Gallery</h1>
                             <div class="page-breadcrumb">
-                                <p><a class="text-white" href="index.html">Home</a> - Gallery</p>
+                                <p><a class="text-white" href="index.php">Home</a> - Gallery</p>
                             </div>
                         </div>
                     </div>
@@ -384,7 +304,7 @@
                             <div class="single_widget">
                                 <div class="address-widget">
                                     <div class="footer-logo">
-                                        <a href="index.html"><img src="assets/images/footer_logo.png" alt="" class="img-fluid"></a>
+                                        <a href="index.php"><img src="assets/images/footer_logo.png" alt="" class="img-fluid"></a>
                                     </div>
                                     <p>900 Lucerne Station Road Terrace, Orlando, FL 32806, USA contact@Tutbits.com</p>
                                     <span>+892 5555 444</span>
