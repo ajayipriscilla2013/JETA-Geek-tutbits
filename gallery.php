@@ -19,7 +19,7 @@
 <body>
     <!-- Start Header -->
     <header>
-        <div class="header_top_area my-4">
+        <div class="header_top_area my-4"> 
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
