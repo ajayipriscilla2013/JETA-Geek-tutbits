@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tutbits</title>
-    <link rel="icon" type="image/png" href="assets/img/pic10 logo.jpg">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -42,8 +42,6 @@
 </section>
 <!-- End Hero Area -->
 
-
-
 <!--Start Page -->
 <div class="page-wrapper section-ptb-3" data-aos="fade-up">
     <div class="container">
@@ -51,7 +49,8 @@
             <div class="col-md-10 mx-auto">
                 <div class="apply-wrapper">
                     <h2></h2>
-                    <form action="std_app_submit.php" method="POST"class="apply_form bg_dark_9 p-5">
+                    
+                    <form action="std_app_submit.php" method="POST"class="apply_form bg_dark_9 p-5" enctype = "multipart/form-data">
                         <div class="row g-4">
                             <!-- Student Information-->
                         <div class="shm-j">
@@ -216,6 +215,13 @@
                                     </select>
                                 </div>
                             </div>
+
+                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="school_calendar">Upload School Calendar (PDF or Image):</label>
+                                                    <input type="file" class="form-control" id="school_calendar" name="school_calendar" accept=".pdf, .jpeg, .jpg, .png" required>
+                                                </div>
+                                            </div>
                        <!-- </div> -->
                         <!-- <div class="row"> -->
                             <!--Parents/ Guardian Information-->
@@ -243,33 +249,31 @@
                                 </div>
                             </div>
                             <!-- </div> -->
+
+                        <div class="jhdfg-h">
+                                <h3>Course Details</h3>
+                            </div>
                         <!-- <div class="row"> -->             
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="courses_registered"> Courses Registered </label>
-                                    <select name="courses_registered" id="courses_registered" class="form-control">
-                                        <option value="1">Course 1</option>
-                                        <option value="2">Course 2</option>
-                                        <option value="3">Course 3</option>
-                                        <option value="4">Course 4</option>
-                                        <option value="5">Course 5</option>
-                                    </select>
+                                    <label for="courses_registered"> Courses Code </label>
+                                    <input type="text" class="form-control" placeholder="Course Code" name="courses_registered" id="courses_registered">
+                                </div>
+                            </div>   
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="coursescode_registered"> Courses Description </label>
+                                    <input type="text" class="form-control" placeholder="Course Code" name="coursescode_registered" id="coursescode_registered">
                                 </div>
                             </div>
                         <!-- </div> -->
-                        <!-- <div class="row"> -->                       
-                                    <form action="/upload-endpoint" method="post" enctype="multipart/form-data">
+                        <!-- <div class="row"> -->    
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="course_compact">Upload Course Compact (PDF or Image):</label>
                                                     <input type="file" class="form-control" id="course_compact" name="course_compact" accept=".pdf, .jpeg, .jpg, .png" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="school_calendar">Upload School Calendar (PDF or Image):</label>
-                                                    <input type="file" class="form-control" id="school_calendar" name="school_calendar" accept=".pdf, .jpeg, .jpg, .png" required>
                                                 </div>
                                             </div>
                                         </div>                               
