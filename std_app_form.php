@@ -262,7 +262,7 @@
                                 </div>
                             </div>   
 
-                            <div class="col-md-6">
+                            <div class="col-md-5">
                                 <div class="form-group">
                                     <label for="coursescode_registered"> Courses Description </label>
                                     <input type="text" class="form-control" placeholder="Course Description" name="coursescode_registered" id="coursescode_registered">
