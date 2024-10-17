@@ -9,8 +9,9 @@ if (isset($_POST)) {
         !empty($_POST['city']) && !empty($_POST['zipcode']) && isset($_POST['prefered_communication']) && 
         !empty($_POST['current_academic_status']) && !empty($_POST['school_name']) && !empty($_POST['faculty']) && 
         !empty($_POST['program_of_study']) && !empty($_POST['year_of_study']) && !empty($_POST['parent_full_name']) && 
-        !empty($_POST['parent_email']) && !empty($_POST['parent_phone_number']) && !empty($_POST['courses_registered']) && !empty($_POST['course_compact']) && !empty($_POST['school_calendar']) &&
-        !empty($_POST['user_reason']) && !empty($_POST['user_comment']) )  {
+        !empty($_POST['parent_email']) && !empty($_POST['parent_phone_number']) && !empty($_POST['courses_registered']) && 
+        !empty($_POST['course_compact']) && !empty($_POST['school_calendar']) && !empty($_POST['user_reason']) && !empty($_POST['user_comment']) )  {
+        
 
         // Prepare the SQL statement to check for existing email address
         $strsql = "SELECT * FROM std_app_form WHERE email_address = :email";

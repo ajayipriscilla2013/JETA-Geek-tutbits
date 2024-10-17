@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tutbits</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" href="assets/img/pic10 logo.jpg">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="single_info">
                                     <button class="special-button"
-                                        onclick="window.location.href = 'apply_form.html';">Apply Now <i
+                                        onclick="window.location.href = 'std_app_form.php';">Apply Now <i
                                             class="fa fa-angle-right"></i> <span class="button_icon"><i
                                                 class="far fa-file-alt"></i></span></button>
                                 </div>
@@ -97,18 +97,17 @@
                                             </a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <li class="nav-item dropdown">
-                                                <li><a class="dropdown-item" href="std_app_form.php">Student Application Form</a></li>
+                                                <li><a class="dropdown-item" href="std_app_form.php">University Student Application Form</a></li>
                                                 <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li>
                                                 <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li>
-                                                <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> --> 
-                                               <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> --> 
+                                                <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> -->
+                                                <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> -->
                                             </ul>
                                         </li>
                                         <li class="nav-item">
                                             <a href="contact.php" class="nav-link">Contact Us</a>
                                         </li>
-                                         <!-- <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>                                   -->
-                                </div>
+                                         <li><a class="dropdown-item" href="tutbits_high_sch.php">Tutbits For High School</a></li>                                                          </div>
                             </nav>
                         </div>
                     </div>
@@ -285,9 +284,6 @@
                     <div class="col-lg-4 mb-3d-5">
                         <div class="featured-2-text">
                             <p>At Tutbits, we believe academic success is a combination of good study habits, motivation, and mental well-being. We provide guidance on time management, study techniques, and stress management to help you stay focused and confident.</p>
-                            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, dicta!</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, fugit.</p> -->
                             <a href="contact.php" class="button_one">Contact Us</a>
                         </div>
                     </div>
@@ -364,163 +360,6 @@
     </section>
     <!-- End Featured-2 Section-->
 
-
-    <!-- Start Our Team Carousel -->
-    <!-- <section class="team-section section-ptb dark_3_bg" data-aos="fade-up" data-aos-delay="300">
-        <div class="our-team-area show_navigation_3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 mx-auto">
-                        <div class="section-title-2 text-center mb-4">
-                            <h2>Our Instructor</h2>
-                            <p>Fusce id sem at ligula laoreet hendrerit venenatis sed purus. Ut pellentesque maximus
-                                lacus, nec pharetra augue.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="our-team-carousel-3 owl-carousel">
-                            <div class="single-team bg-white">
-                                <div class="member-image-2">
-                                    <img src="assets/images/member_07.jpg" alt="team member" class="img-fluid">
-                                    <div class="social-profile-3">
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="member-info-3 border border-top-0 text-center p-4">
-                                    <div class="designation mb-3">
-                                        <h5>Mohammad MK</h5>
-                                        <span>UI/UX Designer</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-team bg-white">
-                                <div class="member-image-2">
-                                    <img src="assets/images/member_08.jpg" alt="team member" class="img-fluid">
-                                    <div class="social-profile-3">
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="member-info-3 border border-top-0 text-center p-4">
-                                    <div class="designation mb-3">
-                                        <h5>Stephen Hoking</h5>
-                                        <span>Physics Teacher</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-team bg-white">
-                                <div class="member-image-2">
-                                    <img src="assets/images/member_09.jpg" alt="team member" class="img-fluid">
-                                    <div class="social-profile-3">
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="member-info-3 border border-top-0 text-center p-4">
-                                    <div class="designation mb-3">
-                                        <h5>Micheal Jhon</h5>
-                                        <span>Senior Teacher</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-team bg-white">
-                                <div class="member-image-2">
-                                    <img src="assets/images/member_08.jpg" alt="team member" class="img-fluid">
-                                    <div class="social-profile-3">
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="member-info-3 border border-top-0 text-center p-4">
-                                    <div class="designation mb-3">
-                                        <h5>Micheal Jhon</h5>
-                                        <span>Senior Teacher</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- End Our Team Carousel -->
-
-
-    <!-- Start Testimonials Section -->
-    <!-- <section class="testimonials-section section-ptb" data-aos="fade-up" data-aos-delay="300">
-        <div class="testimonials-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title text-center pb-0">
-                            <h2>What Our Students Say</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 mx-auto">
-                        <div class="testimonials-wrapper-3 owl-carousel">
-                            <div class="single-testimonial-3 text-center">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore. Consectetur adipis icing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit, sed do eiusmod. Consectetur adipis icing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua, consectetur adipisicing</p>
-                                <div class="testimonial-referance">
-                                    <strong>Mohammad Abdullah </strong>
-                                    <span> - UI Designer</span>
-                                </div>
-                            </div>
-                            <div class="single-testimonial-3 text-center">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore. Consectetur adipis icing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit, sed do eiusmod. Consectetur adipis icing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua, consectetur adipisicing</p>
-                                <div class="testimonial-referance">
-                                    <strong>Mohammad Abdullah </strong>
-                                    <span> - UI Designer</span>
-                                </div>
-                            </div>
-                            <div class="single-testimonial-3 text-center">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore. Consectetur adipis icing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit, sed do eiusmod. Consectetur adipis icing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua, consectetur adipisicing</p>
-                                <div class="testimonial-referance">
-                                    <strong>Mohammad Abdullah </strong>
-                                    <span> - UI Designer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- End Testimonials Section -->
-
-
-    <!-- Start Footer -->
-    <!-- <footer data-aos="fade-up" data-aos-delay="300">
-        <div class="footer-area default_bg">
             <div class="footer-top section-ptb">
                 <div class="container">
                     <div class="row">
