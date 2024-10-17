@@ -270,7 +270,7 @@
                             </div>
                         <!-- </div> -->
                         <!-- <div class="row"> -->  
-                                            <div class="col-md-3">
+                                            <div class="col-md-5">
                                                 <div class="form-group">
                                                     <label for="course_compact">Upload Course Compact (PDF):</label>
                                                     <input type="file" class="form-control" id="course_compact" name="course_compact" accept=".pdf" required>
