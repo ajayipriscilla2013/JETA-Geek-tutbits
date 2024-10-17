@@ -254,7 +254,7 @@
                                 <h3>Course Details</h3>
                             </div>
                         <!-- <div class="row"> -->             
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 <div class="form-group">
                                     <label for="courses_registered"> Courses Code </label>
                                     <input type="text" class="form-control" placeholder="Course Code" name="courses_registered" id="courses_registered">
@@ -264,13 +264,13 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="coursescode_registered"> Courses Description </label>
-                                    <input type="text" class="form-control" placeholder="Course Code" name="coursescode_registered" id="coursescode_registered">
+                                    <input type="text" class="form-control" placeholder="Course Description" name="coursescode_registered" id="coursescode_registered">
                                 </div>
                             </div>
                         <!-- </div> -->
                         <!-- <div class="row"> -->    
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-md-3">
                                                 <div class="form-group">
                                                     <label for="course_compact">Upload Course Compact (PDF or Image):</label>
                                                     <input type="file" class="form-control" id="course_compact" name="course_compact" accept=".pdf, .jpeg, .jpg, .png" required>
