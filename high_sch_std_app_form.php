@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-hrader text-white text-center">
-                        <h1 class="display-2">Student Application Form</h1>
+                        <h1 class="display-2">High School Student Application Form</h1>
                         <div class="page-breadcrumb">
                             <p><a class="text-white" href="index.php">Home</a> - Apply</p>
                         </div>
@@ -51,7 +51,7 @@
             <div class="col-md-10 mx-auto">
                 <div class="apply-wrapper">
                     <h2></h2>
-                    <form action="std_app_submit.php" method="POST"class="apply_form bg_dark_9 p-5">
+                    <form action="high_sch_std_app_submit.php" method="POST"class="apply_form bg_dark_9 p-5">
                         <div class="row g-4">
                             <!-- Student Information-->
                         <div class="shm-j">
@@ -84,7 +84,94 @@
                                     <input type="text" class="form-control" placeholder="Phone Number" name="phone_number" id="phone_number">
                                 </div>
                             </div>
+                             <!-- </div> -->
+                        <!-- <div class="row"> -->
+                            <!--School Detials-->
+                            <div class="jhdfg-h">
+                                <h3>Academic Details</h3>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="current_academic_status">Current Academic Status</label>
+                                    <input type="text" class="form-control" placeholder="Enter" name="current_academic_status" id="current_academic_status">
+                                </div>
+                            </div> 
+                              
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="current_class">Current Class</label>
+                                    <select name="current_class" id="current_class"" class="form-control" > 
+                                        <option value="1">Select year</option>
+                                        <option value="2">Jss1</option>
+                                        <option value="3">Jss2</option>
+                                        <option value="4">Jss3</option>
+                                        <option value="5">Sss1</option>
+                                        <option value="6">Sss2</option>
+                                        <option value="6">Sss3</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- </div> -->
+                        <!-- <div class="row"> -->
+                            <!-- <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="program_of_study">Program of Study</label>
+                                    <input type="text" class="form-control" placeholder="Program of Study" name="program_of_study" id="program_of_study">
+                                </div>
+                            </div>  -->
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                  <label for="academic_discipline">Academic Discipline</label>
+                                  <select class="form-control" name="academic_discipline" id="academic_discipline">
+                                      <option value="">Select Discipline</option>
+                                      <option value="Science">Science</option>
+                                      <option value="Art">Art</option>
+                                      <option value="Commercial">Commercial</option>
+                                      <option value="Technical">Technical</option>
+                                  </select>
+                              </div>
+                           </div>
+                            <!-- </div> -->
+                        <!-- <div class="row"> -->
+                        <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="school_name">School Name</label>
+                                    <input type="text" class="form-control" placeholder="School name" name="school_name" id="school_name">
+                                </div>
+                            </div> 
                            <!-- </div> -->
+                             <!-- <div class="row"> -->             
+                             <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="courses_registered"> Courses Registered </label>
+                                    <select name="courses_registered" id="courses_registered" class="form-control">
+                                        <option value="1">Course 1</option>
+                                        <option value="2">Course 2</option>
+                                        <option value="3">Course 3</option>
+                                        <option value="4">Course 4</option>
+                                        <option value="5">Course 5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                        <!-- <div class="row"> -->                       
+                                    <form action="/upload-endpoint" method="post" enctype="multipart/form-data">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="upload_course_compact">Upload Course Compact (PDF or Image):</label>
+                                                    <input type="file" class="form-control" id="course_compact" name="course_compact" accept=".pdf, .jpeg, .jpg, .png" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="upload_school_calendar">Upload School Calendar (PDF or Image):</label>
+                                                    <input type="file" class="form-control" id="upload_school_calendar" name="upload_school_calendar" accept=".pdf, .jpeg, .jpg, .png" required>
+                                                </div>
+                                            </div>
+                                        </div>                               
+                                        <!-- </div> -->
                         <!-- <div class="row"> -->
                                 <!-- Residential address-->
                         <div class="jhdfg-h">
@@ -172,50 +259,12 @@
                                         <option value="4">SMS</option>
                                     </select><br>
                                 </div>
-                            </div>  
+                            </div> 
+                         
                              <!-- </div> -->
                         <!-- <div class="row"> -->
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="current_academic_status">Current Academic Status</label>
-                                    <input type="text" class="form-control" placeholder="Enter" name="current_academic_status" id="current_academic_status">
-                                </div>
-                            </div> 
-                               <!-- </div> -->
-                        <!-- <div class="row"> -->
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="school_name">School Name</label>
-                                    <input type="text" class="form-control" placeholder="School name" name="school_name" id="school_name">
-                                </div>
-                            </div> 
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="faculty">Faculty</label>
-                                    <input type="text" class="form-control" placeholder="Faculty" name="faculty" id="faculty">
-                                </div>
-                            </div> 
-                            <!-- </div> -->
-                        <!-- <div class="row"> -->
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="program_of_study">Program of Study</label>
-                                    <input type="text" class="form-control" placeholder="Program of Study" name="program_of_study" id="program_of_study">
-                                </div>
-                            </div> 
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="year_of_study">Current Year of Study</label>
-                                    <select name="year_of_study" id="year_of_study" class="form-control" > 
-                                        <option value="1">Select year</option>
-                                        <option value="2">1st Year</option>
-                                        <option value="3">2nd Year</option>
-                                        <option value="4">3rd Year</option>
-                                        <option value="5">4th Year</option>
-                                        <option value="6">5th Year</option>
-                                    </select>
-                                </div>
-                            </div>
+                            
+
                        <!-- </div> -->
                         <!-- <div class="row"> -->
                             <!--Parents/ Guardian Information-->
@@ -243,38 +292,7 @@
                                 </div>
                             </div>
                             <!-- </div> -->
-                        <!-- <div class="row"> -->             
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="courses_registered"> Courses Registered </label>
-                                    <select name="courses_registered" id="courses_registered" class="form-control">
-                                        <option value="1">Course 1</option>
-                                        <option value="2">Course 2</option>
-                                        <option value="3">Course 3</option>
-                                        <option value="4">Course 4</option>
-                                        <option value="5">Course 5</option>
-                                    </select>
-                                </div>
-                            </div>
-                        <!-- </div> -->
-                        <!-- <div class="row"> -->                       
-                                    <form action="/upload-endpoint" method="post" enctype="multipart/form-data">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="course_compact">Upload Course Compact (PDF or Image):</label>
-                                                    <input type="file" class="form-control" id="course_compact" name="course_compact" accept=".pdf, .jpeg, .jpg, .png" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="school_calendar">Upload School Calendar (PDF or Image):</label>
-                                                    <input type="file" class="form-control" id="school_calendar" name="school_calendar" accept=".pdf, .jpeg, .jpg, .png" required>
-                                                </div>
-                                            </div>
-                                        </div>                               
-                                        <!-- </div> -->
-                        <!-- <div class="row"> -->
+                             <!-- <div class="row"> -->
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="user_reason">Reason for Application</label>

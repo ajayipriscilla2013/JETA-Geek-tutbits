@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tutbits</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" href="assets/img/pic10 logo.jpg">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="single_info">
                                     <button class="special-button"
-                                        onclick="window.location.href = 'apply_form.html';">Apply Now <i
+                                        onclick="window.location.href = 'std_app_form.php';">Apply Now <i
                                             class="fa fa-angle-right"></i> <span class="button_icon"><i
                                                 class="far fa-file-alt"></i></span></button>
                                 </div>
@@ -97,7 +97,7 @@
                                             </a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <li class="nav-item dropdown">
-                                                <li><a class="dropdown-item" href="std_app_form.php">Student Application Form</a></li>
+                                                <li><a class="dropdown-item" href="std_app_form.php">University Student Application Form</a></li>
                                                 <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li>
                                                 <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li>
                                                 <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> -->
@@ -107,8 +107,7 @@
                                         <li class="nav-item">
                                             <a href="contact.php" class="nav-link">Contact Us</a>
                                         </li>
-                                         <!-- <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>                                   -->
-                                </div>
+                                         <li><a class="dropdown-item" href="tutbits_high_sch.php">Tutbits For High School</a></li>                                                          </div>
                             </nav>
                         </div>
                     </div>

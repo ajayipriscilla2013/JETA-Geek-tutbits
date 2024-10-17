@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tutbits</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" href="assets/img/pic10 logo.jpg">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="single_info">
                                     <button class="special-button"
-                                        onclick="window.location.href = 'apply_form.html';">Apply Now <i
+                                        onclick="window.location.href = 'std_app_form.php';">Apply Now <i
                                             class="fa fa-angle-right"></i> <span class="button_icon"><i
                                                 class="far fa-file-alt"></i></span></button>
                                 </div>
@@ -97,7 +97,7 @@
                                             </a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <li class="nav-item dropdown">
-                                                <li><a class="dropdown-item" href="std_app_form.php">Student Application Form</a></li>
+                                                <li><a class="dropdown-item" href="std_app_form.php">University Student Application Form</a></li>
                                                 <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li>
                                                 <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li>
                                                 <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> -->
@@ -107,8 +107,7 @@
                                         <li class="nav-item">
                                             <a href="contact.php" class="nav-link">Contact Us</a>
                                         </li>
-                                         <!-- <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>                                   -->
-                                </div>
+                                         <li><a class="dropdown-item" href="tutbits_high_sch.php">Tutbits For High School</a></li>                                                          </div>
                             </nav>
                         </div>
                     </div>
@@ -196,7 +195,7 @@
                             <li><i class="fas fa-map-marker-alt"></i> Plot 36, Great Estate Phase One, Atan-Ota, Ogun
                                 State, Nigeria.</li>
                             <li><i class="fas fa-mobile-alt"></i> +234 810 1096 623</li><br>
-                            <li><i class="fas fa-envelope">info@tutbits.sev.jetacoms.tech</i>
+                            <li><i class="fas fa-envelope">info@tutbits.net</i>
                                 <tutbits.sev.jetacoms.tech>
                                     </tutbits>
                             </li>
@@ -233,111 +232,6 @@
     </div>
     <!-- End Page Wrapper-->
 
-
-
-    <!-- Start Footer -->
-    <!-- <footer data-aos="fade-up">
-        <div class="subscribe-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="subscribe-wrapper p-5 bg-white">
-                            <div class="row align-items-center">
-                                <div class="col-md-6">
-                                    <div class="subscribe-text">
-                                        <h2>Newsletters</h2>
-                                        <p>Consectetur adipisicing elit, sed do eiusmod tempoe</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="subscribe-form">
-                                        <form action="#">
-                                            <input type="email" class="form-control" placeholder="Enter Your Email">
-                                            <button type="submit">Subscribe</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-area default_bg">
-            <div class="footer-top section-ptb-2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="single_widget">
-                                <div class="address-widget">
-                                    <div class="footer-logo">
-                                        <a href="index.php"><img src="assets/images/footer_logo.png" alt="" class="img-fluid"></a>
-                                    </div>
-                                    <p>900 Lucerne Station Road Terrace, Orlando, FL 32806, USA contact@Tutbits.com</p>
-                                    <span>+892 5555 444</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mb-3d-5">
-                            <div class="single_widget">
-                                <h3>Useful Links</h3>
-                                <div class="widget-list">
-                                    <ul>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Our Instructors</a></li>
-                                        <li><a href="#">Courses</a></li>
-                                        <li><a href="#">History</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Service Plus</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mb-xs-5">
-                            <div class="single_widget">
-                                <h3>Our Services</h3>
-                                <div class="widget-list">
-                                    <ul>
-                                        <li><a href="#">CSE Engeering</a></li>
-                                        <li><a href="#">Graduation</a></li>
-                                        <li><a href="#">Courses</a></li>
-                                        <li><a href="#">Admission</a></li>
-                                        <li><a href="#">Internation</a></li>
-                                        <li><a href="#">Faqs</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="single_widget">
-                                <h3>Latest News</h3>
-                                <div class="widget-item">
-                                    <div class="widget-image">
-                                        <a href="#"><img src="assets/images/blog_01.jpg" alt="blog one" /></a>
-                                    </div>
-                                    <div class="widget-content">
-                                        <h5><a href="#">7 Step Social Media Marke ting Strategy</a></h5>
-                                        <div class="widget-meta">
-                                            <span>05 Jan 2019</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="widget-item">
-                                    <div class="widget-image">
-                                        <a href="#"><img src="assets/images/blog_02.jpg" alt="blog one" /></a>
-                                    </div>
-                                    <div class="widget-content">
-                                        <h5><a href="#">7 Step Social Media Marke ting Strategy</a></h5>
-                                        <div class="widget-meta">
-                                            <span>05 Jan 2019</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
     <div class="footer-bottom-wrapper border-top py-3">
         <div class="container">
             <div class="row">

@@ -58,7 +58,7 @@
                                 </div>
                                 <div class="single_info">
                                     <button class="special-button"
-                                        onclick="window.location.href = 'std_app_form.php';">Apply Now <i
+                                        onclick="window.location.href = 'high_sch_std_app_form.php';">Apply Now <i
                                             class="fa fa-angle-right"></i> <span class="button_icon"><i
                                                 class="far fa-file-alt"></i></span></button>
                                 </div>
@@ -98,11 +98,11 @@
                                             </a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <li class="nav-item dropdown">
-                                                <li><a class="dropdown-item" href="std_app_form.php">University Student Application Form</a></li>
+                                                <li><a class="dropdown-item" href="high_sch_std_app_form.php">High School Student Application Form</a></li>
                                                 <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li>
                                                 <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li>
                                                 <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> -->
-                                                <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> -->
+                                               // <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> -->
                                             </ul>
                                         </li>
                                         <li class="nav-item">
@@ -174,20 +174,22 @@
             <div class="row">
                 <div class="col-lg-6 mb-3d-5 px-0">
                     <div class="half_column_image">
-                        <img src="assets/img/pic7.jpg" alt="Welcome to Tutbits" class="img-fluid equal-height">
+                        <img src="assets/img/pic7.jpg" alt="Tutbits For High School" class="img-fluid equal-height">
 
                     </div>
                 </div>
                 <div class="col-lg-6 equal-height">
                     <div class="half_column_content">
-                        <h2 class="sub-title">Welcome To Tutbits</h2>
+                        <h2 class="sub-title">Tutbits For High School</h2>
                         <h5 class="welcome_content">
-                            Welcome to Tutbits, where we provide personalized academic support to help students in higher education overcome challenges and achieve success. From organizing study materials and tracking academic progress to offering a range of online courses, we’re dedicated to enhancing your learning experience. With advanced technology and personalized feedback, we simplify academic tasks while keeping your parents or guardians informed and involved in your journey. At Tutbits, we’re here to empower you to reach your full academic potential.
+                        Welcome to Tutbits, where we provide personalized academic support to help high school students thrive.<br> From tracking progress to offering online courses, we make learning more manageable while keeping parents or guardians involved. Our goal is to empower you to reach your full academic potential.<br>
+
+At Tutbits, we emphasize the importance of both mathematics and English as foundational subjects. Mastering math sharpens critical thinking and problem-solving skills, while strong English skills enhance communication and comprehension.<br> Together, they prepare students for academic success and real-world challenges, ensuring a well-rounded education.
                         </h5>
                         <div class="theme-list">
                             <ul>
                                 <li><a href="#">Course Compact Assistance</a></li>
-                                <li><a href="#">University Portal Monitoring</a></li>
+                                <li><a href="#">High School Portal Monitoring</a></li>
                                 <li><a href="#">Learn Courses Online</a></li>
                             </ul>
                         </div>
@@ -328,8 +330,8 @@
                             <img class="img-fluid" src="assets/images/icon_04.png" alt="icon">
                         </div>
                         <div class="item-text">
-                            <h4><a href="#">University Portal Monitoring</a></h4>
-                            <p>By accessing your University portal (with your permission), we track key metrics such as
+                            <h4><a href="#">High School Portal Monitoring</a></h4>
+                            <p>By accessing your High School Portal(with your permission), we track key metrics such as
                                 your grades, test scores, and attendance. Our goal is to catch any red flags early and
                                 help you make timely improvements.
 
@@ -395,23 +397,17 @@
                     </div>
                     <div class="col-lg-6" data-aos="fade-in-right" data-aos-delay="400">
                         <div class="video_popup_content text-white">
-                            <h2 class="sub-title text-white mb-3">How it works</h2>
-                            <h5> *Subscription and Registration
-                                <br>
-                                 <br>
-                               *Course registration
-                               <br>
-                               <br>
-                               *Access to student's University portal
-                               <br>
-                                <br>
-                               *Access to school calendar
-                               <br>
-                               <br>
-
-                               *Course outlines
-                              </h5>
                             
+                            <ul>
+                            <h2 class="sub-title text-white mb-3">How it works</h2>
+                            <h5>
+                            <li>Subscription and Registration</li> <br>
+                            <li>Course Registration</li> <br>
+                            <li>Access to Student's High School Portal</li> <br>
+                            <li>Access to School Calendar</li> <br>
+                            <li>Course Outlines</li>
+                            </h5>
+                            </ul> 
                         </div>
                     </div>
                 </div>

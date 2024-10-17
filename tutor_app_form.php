@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tutbits</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" href="assets/img/pic10 logo.jpg">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -173,7 +173,7 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="tutor_schedule">Availability (Select specific days and time slots)</label>
-                                        <textarea id="tutor_schedule" name="tutor_schedule" class="form-control" row s="3" placeholder="e.g., Mon 3-5 PM, Wed 1-3 PM" required></textarea>
+                                        <textarea id="tutor_schedule" name="tutor_schedule" class="form-control" row s="3" placeholder="e.g., Monday-Friday, Wednesday-Friday" required></textarea>
                                     </div>
                                 </div>
     

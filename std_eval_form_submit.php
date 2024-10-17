@@ -2,7 +2,7 @@
 // Include the database connection file
 include_once('connect.php');
 
-if (isset($_POST)) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Check if all required fields are filled
     if (!empty($_POST['user_first_name']) && !empty($_POST['students_id']) && !empty($_POST['course_title']) && !empty($_POST['course_code']) &&
         !empty($_POST['start_time']) &&  !empty($_POST['end_time']) && !empty($_POST['tutor_name']) && isset($_POST['overall_rating']) && 
@@ -24,7 +24,7 @@ if (isset($_POST)) {
                        VALUES 
                        (:user_first_name, :students_id, :course_title, :course_code, :start_time, :end_time, 
                         :tutor_name, :overall_rating, :self_evaluation_rating, :subject_improvement, 
-                        :exam_prep, :comments,  :submission_date,)";
+                        :exam_prep, :comments,  :submission_date)";
 
             $stmt = $con->prepare($strsql);
 
@@ -73,4 +73,5 @@ if (isset($_POST)) {
               </script>";
     }
 }
+
 ?>
