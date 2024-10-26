@@ -26,7 +26,7 @@
                             <p>Tutbits 2024. All Rights Reserved.</p>
                         </div>
                         <div class="logo-ft">
-                            <div><a href=""><img src="/assets/img/JETACOMSlogo.png" alt="logo" width="100px" height="100px"></a>
+                            <div><a href="https://jetacoms.tech/"><img src="/assets/img/JETACOMSlogo.png" alt="logo" width="100px" height="100px"></a>
                             </div>
                             <div><a href=""><img src="/assets/img/geekc.png" alt="logo" width="100px" height="100px"></a>
                             </div>
