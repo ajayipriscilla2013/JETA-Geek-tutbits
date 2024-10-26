@@ -32,7 +32,7 @@
                     <div class="page-hrader text-white text-center">
                         <h1 class="display-2">High School Student Application Form</h1>
                         <div class="page-breadcrumb">
-                            <p><a class="text-white" href="index.php">Home</a> - Apply</p>
+                            <p><a class="text-white" href="tutbits_high_sch.php">Home</a> - Apply</p>
                         </div>
                     </div>
                 </div>

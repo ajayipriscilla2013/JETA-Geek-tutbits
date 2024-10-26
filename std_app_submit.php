@@ -1,5 +1,6 @@
     <?php
     // Include the database connection file
+    session_start();
     include_once('connect.php');
 
     if (isset($_POST)) {
@@ -18,7 +19,7 @@
                     $temptype = $_FILES['school_calendar']['type'];
                     if($temptype == "application/pdf"){
                         $filetype = "pdf";
-                    }
+                    } 
                     else{
                         $filetype = ".jpg";
                     }
@@ -83,6 +84,7 @@
                                 }
                                 $newfilename = "studentuploads/".$_POST['student_email']."_course_compact".$i.".".$filetype;
                                 move_uploaded_file($tempname, $newfilename);
+                                echo "".$newfilename."";
                             }
                             $strsql = "INSERT INTO `std_course_details` (`id`, `username`, `coursecode`, `coursedesc`, `coursecompact`, `course_status`) 
                             VALUES (NULL, :username, :coursecode, :coursedesc, :compactupload, 1);";
@@ -103,7 +105,7 @@
                 } else {
                     echo "<script>
                             alert('Data submission failed');
-                            window.location.href = 'https://tutbits.net/';
+                            window.location.href = '';
                         </script>";
                 }
             } else {
