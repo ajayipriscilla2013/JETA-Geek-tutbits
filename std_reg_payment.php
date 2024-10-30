@@ -25,7 +25,7 @@
                         $query3->bindValue(":institution_type", 1);
                         $query3->bindValue(":feestatus", 1);
                         $query3->execute();
-                        $feesttructure = $query3->fetch(PDO::FETCH_ASSOC);
+                        $feestructure = $query3->fetch(PDO::FETCH_ASSOC);
                         }
 
                         ?>
@@ -57,7 +57,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="page-hrader text-white text-center">
-                                                <h1 class="display-2">Student Application Payment</h1>
+                                                <h1 class="display-2">Undergraduate Student Application Payment</h1>
                                                 <div class="page-breadcrumb">
                                                     <p><a class="text-white" href="index.php">Home</a> - Apply</p>
                                                 </div>
@@ -143,17 +143,17 @@
                                                         <div class="form-group">
                                                         <?php
                                                         $total_cost = 0;
-                                                        //print_r($feesttructure);
-                                                        if (isset($feesttructure['per_course_fee'])) {
-                                                        $course_cost = $coursescount*3*$feesttructure['per_course_fee'];
-                                                        $total_cost = $course_cost + $feesttructure['compulsory_fee'];
+                                                        //print_r($feestructure);
+                                                        if (isset($feestructure['per_course_fee'])) {
+                                                        $course_cost = $coursescount*3*$feestructure['per_course_fee'];
+                                                        $total_cost = $course_cost + $feestructure['compulsory_fee'];
                                                     
                                                         ?>
             <div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
         <table cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 50%; text-align: left; background-color: #f9f9f9; border: 1px solid #ddd;">
             <tr>
                 <td style="padding: 12px 15px; border: 1px solid #ddd;">Compulsory Administrative Fee:</td>
-                <td style="padding: 12px 15px; border: 1px solid #ddd;"><?php echo number_format($feesttructure['compulsory_fee'], 2); ?></td>
+                <td style="padding: 12px 15px; border: 1px solid #ddd;"><?php echo number_format($feestructure['compulsory_fee'], 2); ?></td>
             </tr>
             <tr>
                 <td style="padding: 12px 15px; border: 1px solid #ddd;">Total Course Cost:</td>
