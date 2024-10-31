@@ -149,29 +149,26 @@
                     <div class="main-content">
                         <div class="contact-from-wrapper-2">
                             <h2 class="section-heading">Contact Us</h2>
-                            <form action="#" class="contact-form mt-4">
+                            <form action="contact_submit.php" method="POST" class="contact-form mt-4">
                                 <div class="row g-4">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Enter Your Name"
-                                                required>
+                                            <input type="text" class="form-control" name="name" placeholder="Enter Your Name" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Enter Your Email"
-                                                required>
+                                            <input type="email" class="form-control" name="email" placeholder="Enter Your Email Address" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="phone_number"
-                                                placeholder="Enter Phone Number" required>
+                                            <input type="tel" class="form-control" name="phone_number" id="phone_number" placeholder="Enter Phone Number" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="subject" class="form-control" placeholder="Enter Subject">
+                                            <input type="text" class="form-control" name="subject" placeholder="Enter Subject">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
@@ -220,7 +217,7 @@
                             <div class="mapouter">
                                 <div class="gmap_canvas">
                                     <iframe width="100%" height="500" id="gmap_canvas"
-                                        src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15851.574316013613!2d3.070692173780827!3d6.660109571125898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1730340940876!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                                         frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                                 </div>
                             </div>
