@@ -1,4 +1,5 @@
 <?php
+//session_start();
 include_once('connect.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -15,12 +16,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         return empty($_POST[$field]);
     });
 
+   
     if (empty($missing_fields)) {
+      
         $email = $_POST['student_email'];
 
         // Check if the email already exists
         $stmt = $con->prepare("SELECT * FROM high_sch_std_app_form WHERE student_email = ?");
         $stmt->execute([$email]);
+      //  $subjects_registered = json_encode($_POST['subjects_registered']);
+
 
         if ($stmt->rowCount() == 0) {
             // Prepare the insert statement
@@ -37,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 )
             ");
 
-            // Execute the insert statement
+           // Execute the insert statement
             $inputcount = $insert_stmt->execute([
                 $_POST['first_name'], 
                 $_POST['last_name'], 
@@ -62,20 +67,52 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             ]);
 
             if ($inputcount > 0) {
+                $_SESSION['uname']=$email;
+                
+    if (isset($_POST['subjects_registered'])) {
+        $selectedSubjects = $_POST['subjects_registered'];
+        // $selectedSubjects will be an array containing the selected values
+        foreach ($selectedSubjects as $subject) {
+           // echo "Selected subject ID: " . $subject . "<br>";
+            $insert_subj = $con->prepare("
+                INSERT INTO std_subject_details ( username, subject) Values (?,?)
+                ");
+              $subjcount = $insert_subj->execute([
+                $email,
+                $subject
+              ]);
+            // Here you can save the subject selections to the database or handle as needed
+        }
+    } else {
+        echo "No subjects selected.";
+    }
+    if ($subjcount) {
+        
                 echo "<script>
                         alert('Thank You, Your data was successfully submitted');
                         window.location.href = 'high_sch_std_reg_payment.php';
-                    </script>";
+                    </script>"; 
+    }
+    else{
+        echo "<script>
+                   alert('Subject Data not saved');
+              </script>";
+
+    }
+    
+
+            
             }
-        } //else {
+        } else {
+            
              echo "<script>
-        //             alert('Data already exists');
-        //             window.location.href = 'https://tutbits.net/';
-        //         </script>";
-         //}
+                        alert('Data already exists');
+                        window.location.href = 'https://tutbits.net/';
+                   </script>";
+         }
     } else {
         echo "<script>
-                alert('Please fill in all required fields: " . implode(', ', $missing_fields) . "');
+                alert('Please fill in all required fields:  " . implode(', ', $missing_fields) . "');
                 window.location.href = 'https://tutbits.net/';
             </script>";
     }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tutbits</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" href="assets/img/pic10 logo.jpg">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -98,8 +98,8 @@
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                 <li class="nav-item dropdown">
                                                 <li><a class="dropdown-item" href="std_app_form.php">Student Application Form</a></li>
-                                                <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li>
-                                                <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li>
+                                                <!-- <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li> -->
+                                                <!-- <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li> -->
                                                 <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> -->
                                                // <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> -->
                                             </ul>
