@@ -2,6 +2,7 @@
                         session_start();
                         include_once('connect.php');
                         //echo $_SESSION['uname'];
+                     
                         if(isset($_SESSION['uname']) && $_SESSION['uname'] != ""){
                         $username = $_SESSION['uname'];
 
@@ -38,7 +39,7 @@
                             <meta name="viewport" content="width=device-width, initial-scale=1.0">
                             <meta http-equiv="X-UA-Compatible" content="ie=edge">
                             <title>Tutbits</title>
-                            <link rel="icon" type="image/png" href="assets/images/favicon.png">
+                            <link rel="icon" type="image/png" href="assets/img/pic10 logo.jpg">
                             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
                             <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
                             <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -149,7 +150,7 @@
                                                         $total_cost = $course_cost + $feestructure['compulsory_fee'];
                                                     
                                                         ?>
-            <div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
+            <div style="width: 100%; display: flex; justify-content: left; margin-top: 20px;">
         <table cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 50%; text-align: left; background-color: #f9f9f9; border: 1px solid #ddd;">
             <tr>
                 <td style="padding: 12px 15px; border: 1px solid #ddd;">Compulsory Administrative Fee:</td>
@@ -163,11 +164,11 @@
                 <td style="padding: 12px 15px; border: 1px solid #ddd;">Grand Total:</td>
                 <td style="padding: 12px 15px; border: 1px solid #ddd;"><strong style="color: #333;"><?php echo number_format($total_cost, 2); ?></strong></td>
             </tr>
-        </table>   
-                                        
+        </table>
     </div>
+    <p>Note: <em>This bill is for a period of three months (3 months)</em></p>
     <!-- Payment Receipt Section -->
-    <div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
+    <div style="width: 100%; display: flex; justify-content: left; margin-top: 20px;">
 
     <div style="width: 50%; margin-top: 20px; text-align: left;">
             <h5 style="color: #333;">Payment Information</h5>

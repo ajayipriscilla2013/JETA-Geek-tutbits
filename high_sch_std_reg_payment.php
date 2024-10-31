@@ -1,22 +1,27 @@
         <?php
-                                session_start();
-                                include_once('connect.php');
-                                //echo $_SESSION['uname'];
-                                if(isset($_SESSION['uname']) && $_SESSION['uname'] != ""){
-                                $username = $_SESSION['uname'];
+        include_once('connect.php');
+    //    print_r($_SESSION);
+    //     exit();
+        
+        
+        
+        if(isset($_SESSION['uname']) && $_SESSION['uname'] != ""){
+          $username = $_SESSION['uname'];
 
-                                // Query to fetch student details
-                                $query = $con->prepare("SELECT * FROM high_sch_std_app_form WHERE student_email = :usernameuse");
-                                $query->bindParam(":usernameuse", $username);
-                                $query->execute();
-                                $student = $query->fetch(PDO::FETCH_ASSOC);
+        // Query to fetch student details
+        $query = $con->prepare("SELECT * FROM high_sch_std_app_form WHERE student_email = :usernameuse");
+        $query->bindParam(":usernameuse", $username);
+        $query->execute();
+        $student = $query->fetch(PDO::FETCH_ASSOC);
+                                
+        // Fetch subjects associated with this student
+        $query2 = $con->prepare("SELECT DISTINCT subject FROM std_subject_details WHERE username = :username");
+        $query2->bindParam(":username", $username);
+        $query2->execute();
+        $subjectcount = $query2->rowCount();
+        $subjects = $query2->fetchall(PDO::FETCH_ASSOC);
+                                // Assuming a PDO connection, fetch all unique subjects
 
-                                // Fetch course details associated with this student
-                                $query2 = $con->prepare("SELECT subject FROM std_subject_details WHERE username = :username");
-                                $query2->bindParam(":username", $username);
-                                $query2->execute();
-                                $coursescount = $query2->rowCount();
-                                $courses = $query2->fetchAll(PDO::FETCH_ASSOC);
 
                                 //fetch cost for reg
                                 $query3 = $con->prepare("SELECT * FROM reg_fee_structure WHERE institution_type = :institution_type and status = :feestatus");
@@ -35,7 +40,7 @@
                                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                                     <meta http-equiv="X-UA-Compatible" content="ie=edge">
                                     <title>Tutbits</title>
-                                    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+                                    <link rel="icon" type="image/png" href="assets/img/pic10 logo.jpg">
                                     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
                                     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
                                     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -97,7 +102,7 @@
     <h3>Subjects Details</h3>
     </div>
 
-    <?php foreach ($courses as $index => $course): ?>   
+    <?php foreach ($subjects as $index => $subject): ?>   
         <div class="row">          
             <div class="col-md-1">
                 <div class="form-group">
@@ -106,8 +111,8 @@
             </div>            
             <div class="col-md-5">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Subject" name="subject_registered<?php echo $index + 1; ?>" id="subject_registered<?php echo $index + 1; ?>" value="<?php echo $course['subject']; ?>" readonly>
-                </div>
+                    <input type="text" class="form-control" placeholder="Subject" name="subject_registered<?php echo $index + 1; ?>" id="subject_registered<?php echo $index + 1; ?>" value="<?php echo $subject['subject']; ?>" readonly>
+                </div> 
             </div>
         </div> 
     <?php endforeach; ?>
@@ -120,10 +125,10 @@
     $total_cost = 0;
     //print_r($feestructure);
     if (isset($feestructure['per_course_fee'])) {
-    $course_cost = $coursescount*3*$feestructure['per_course_fee'];
-    $total_cost = $course_cost + $feestructure['compulsory_fee'];
+    $subject_cost = $subjectcount*3*$feestructure['per_course_fee'];
+    $total_cost = $subject_cost + $feestructure['compulsory_fee'];
     ?>
-                    <div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
+                    <div style="width: 100%; display: flex; justify-content: left; margin-top: 20px;">
                 <table cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 50%; text-align: left; background-color: #f9f9f9; border: 1px solid #ddd;">
                     <tr>
                         <td style="padding: 12px 15px; border: 1px solid #ddd;">Compulsory Administrative Fee:</td>
@@ -131,17 +136,17 @@
                     </tr>
                     <tr>
                         <td style="padding: 12px 15px; border: 1px solid #ddd;">Total Subjects Cost:</td>
-                        <td style="padding: 12px 15px; border: 1px solid #ddd;"><?php echo number_format($course_cost, 2); ?></td>
+                        <td style="padding: 12px 15px; border: 1px solid #ddd;"><?php echo number_format($subject_cost , 2); ?></td>
                     </tr>
                     <tr>
                         <td style="padding: 12px 15px; border: 1px solid #ddd;">Grand Total:</td>
                         <td style="padding: 12px 15px; border: 1px solid #ddd;"><strong style="color: #333;"><?php echo number_format($total_cost, 2); ?></strong></td>
                     </tr>
-                </table>   
-                                                
+                </table>                     
             </div>
+           <p>Note: <em>This bill is for a period of three months (3 months)</em></p>
             <!-- Payment Receipt Section -->
-            <div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
+            <div style="width: 100%; display: flex; justify-content: left; margin-top: 20px;">
 
             <div style="width: 50%; margin-top: 20px; text-align: left;">
                     <h5 style="color: #333;">Payment Information</h5>
@@ -171,7 +176,7 @@
                                                                 <?php
                                                                     } else {
                                                                         // Handle the missing key scenario (e.g., set a default value or show an error message)
-                                                                        $course_cost = 0; // or handle it in another way
+                                                                        $subject_cost  = 0; // or handle it in another way
                                                                         echo "Error: Fee is not set in the feestructure.";
                                                                     }
                                                                 ?>

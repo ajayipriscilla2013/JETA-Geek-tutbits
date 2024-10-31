@@ -120,6 +120,7 @@
                                             <option value="5">Sss1</option>
                                             <option value="6">Sss2</option>
                                             <option value="6">Sss3</option>
+                                            <option value="7">Post-Secondary</option>
                                         </select>
                                     </div>
                                 </div>
@@ -133,6 +134,7 @@
                                         <option value="Art">Art</option>
                                         <option value="Commercial">Commercial</option>
                                         <option value="Technical">Technical</option>
+                                        <option value="Others">Others</option>
                                     </select>
                                 </div>
                             </div>
@@ -150,9 +152,9 @@
                                     <div class="form-group">
                                     <label for="subjects_registered">Subjects Registered</label><br>
                                     <div id="subjects_registered" class="form-control" name="subjects_registered">
-                                    <input type="checkbox" name="subjects_registered[]" id="english" value="1">
+                                    <input type="checkbox" name="subjects_registered[]" id="english" value="English Language">
                                     <label for="english">English Language</label><br>
-                                    <input type="checkbox" name="subjects_registered[]" id="maths" value="2">
+                                    <input type="checkbox" name="subjects_registered[]" id="maths" value="Mathematics">
                                     <label for="maths">Mathematics</label><br>
                                     </div>
                                     </div>
