@@ -93,8 +93,8 @@
                                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                     <li class="nav-item dropdown">
                                                     <li><a class="dropdown-item" href="high_sch_std_app_form.php">High School Student Application Form</a></li>
-                                                    <li><a class="dropdown-item" href="coord_app_form.php">High School Coordinator Application Form</a></li>
-                                                    <li><a class="dropdown-item" href="tutor_app_form.php">High School Tutor Application Form</a></li>
+                                                    <!-- <li><a class="dropdown-item" href="coord_app_form.php">High School Coordinator Application Form</a></li> -->
+                                                    <!-- <li><a class="dropdown-item" href="tutor_app_form.php">High School Tutor Application Form</a></li> -->
                                                     <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> -->
                                                     <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> -->
                                                 </ul>
@@ -102,7 +102,7 @@
                                             <li class="nav-item">
                                                 <a href="contact.php" class="nav-link">Contact Us</a>
                                             </li>
-                                            <li><a class="dropdown-item" href="tutbits_high_sch.php">Tutbits For High School</a></li>                                                          </div>
+                                            <li><a class="dropdown-item" href="index.php">Tutbits For Undergraduates</a></li>                                                          </div>
                                 </nav>
                             </div>
                         </div>
