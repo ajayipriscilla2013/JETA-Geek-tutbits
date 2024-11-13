@@ -93,8 +93,8 @@
                                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                     <li class="nav-item dropdown">
                                                     <li><a class="dropdown-item" href="high_sch_std_app_form.php">High School Student Application Form</a></li>
-                                                    <!-- <li><a class="dropdown-item" href="coord_app_form.php">High School Coordinator Application Form</a></li> -->
-                                                    <!-- <li><a class="dropdown-item" href="tutor_app_form.php">High School Tutor Application Form</a></li> -->
+                                                    <li><a class="dropdown-item" href="coord_app_form.php">High School Coordinator Application Form</a></li>
+                                                    <li><a class="dropdown-item" href="tutor_app_form.php">High School Tutor Application Form</a></li>
                                                     <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> -->
                                                     <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> -->
                                                 </ul>
