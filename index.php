@@ -53,7 +53,7 @@
                                                 <img src="assets/images/phone.png" alt="Location" class="img-fluid">
                                                 <div class="info_data">
                                                     <h6>Phone</h6>
-                                                    <p>+234 810 1096 623 </p>
+                                                    <p>+234 704 191 9385</p>
                                                 </div>
                                             </div>
                                             <div class="single_info">
@@ -541,10 +541,11 @@
                                         <p>Tutbits 2024. All Rights Reserved.</p>
                                     </div>
                                     <div class="logo-ft">
-                                        <div><a href="https://geekcircles.com.ng/"><img src="./assets/img/geekcircleslogo.jpg" alt="logo" width="100px" height="100px"></a>
+                                        <!-- <div><a href="https://geekcircles.com.ng/"><img src="./assets/img/geekcircleslogo.jpg" alt="logo" width="100px" height="100px"></a>
                                         </div>
                                         <div><a href="https://jetacoms.tech/"><img src="./assets/img/JETACOMSlogo.png" alt="logo" width="100px" height="100px"></a>
-                                        </div>
+                                        </div> -->
+                                        <p>Contact Us on +234 802 845 5441</p>
                                     </div>
                                 
                                 </div>
