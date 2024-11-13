@@ -99,8 +99,8 @@
                                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                             <li class="nav-item dropdown">
                                                             <li><a class="dropdown-item" href="std_app_form.php">University Student Application Form</a></li>
-                                                           <!-- <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li> -->
-                                                            <!-- <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li> -->
+                                                           <li><a class="dropdown-item" href="coord_app_form.php">Coordinator Application Form</a></li>
+                                                            <li><a class="dropdown-item" href="tutor_app_form.php">Tutor Application Form</a></li>
                                                             
                                                             <!-- <li><a class="dropdown-item" href="tutor_log_form.php">Tutorship Log Form</a></li> -->
                                                             <!-- <li><a class="dropdown-item" href="std_eval_form.php">Students Evaluation Form</a></li> -->
