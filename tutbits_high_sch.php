@@ -540,7 +540,7 @@
                                 </div>
                                 <div><a href="https://jetacoms.tech/"><img src="./assets/img/JETACOMSlogo.png" alt="logo" width="100px" height="100px"></a>
                                 </div> -->
-                                <p>Contact Us on +234 802 845 5441</p>
+                                <p>Contact Us on +234 802 845 5441, +234 704 191 9385</p>
                             </div>
                         
                         </div>
