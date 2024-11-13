@@ -52,7 +52,7 @@
                                     <img src="assets/images/phone.png" alt="Location" class="img-fluid">
                                     <div class="info_data">
                                         <h6>Phone</h6>
-                                        <p>+234 810 1096 623 </p>
+                                        <p>+234 704 191 9385</p>
                                     </div>
                                 </div>
                                 <div class="single_info">
